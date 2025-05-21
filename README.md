@@ -1,5 +1,3 @@
-## 🧠 Hack The Box Stats
-
 <!--START_SECTION:htb-->
-Updating...
+Updating HTB stats...
 <!--END_SECTION:htb-->
