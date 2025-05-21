@@ -1,9 +1,12 @@
 # 👾 Aviral Srivastava — Cybersecurity Engineer | Offensive AI Researcher | Red Teamer
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=24&duration=3500&pause=1000&color=00FFFF&center=true&vCenter=true&width=800&lines=Offensive+Security+Researcher;Red+Team+Engineer;AI+Payload+Crafter;Fuzzing+%2F+Symbolic+Execution+%2F+Malware+R%26D&repeat=1" alt="Typing Banner"/>
-</p>
+<!-- Gradient header with name -->
+![Cyberpunk Header](https://capsule-render.vercel.app/api?type=wave&color=gradient&text=Aviral%20Srivastava&height=200&fontSize=40&animation=twinkling)
 
+<!-- Looping typing animation that doesn't freeze -->
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&duration=3500&pause=1000&color=00FFFF&center=true&vCenter=true&width=600&lines=Offensive+Security+Researcher;AI+Payload+Crafter;Red+Team+Engineer;&repeat=1" />
+</p>
 
 ---
 
