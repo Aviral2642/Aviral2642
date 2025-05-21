@@ -2,8 +2,8 @@ name: Update GitHub Profile with HTB Stats
 
 on:
   schedule:
-    - cron: "0 */6 * * *"  # runs every 6 hours
-  workflow_dispatch:       # allows you to run it manually
+    - cron: "0 */6 * * *" # Runs every 6 hours
+  workflow_dispatch:
 
 jobs:
   github-metrics:
