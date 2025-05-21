@@ -1,13 +1,10 @@
 # 👾 Aviral Srivastava — Cybersecurity Engineer | Offensive AI Researcher | Red Teamer
 
-<!-- Gradient header with name -->
 ![Cyberpunk Header](https://capsule-render.vercel.app/api?type=wave&color=gradient&text=Aviral%20Srivastava&height=200&fontSize=40&animation=twinkling)
 
-<!-- Looping typing animation that doesn't freeze -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&duration=3500&pause=1000&color=00FFFF&center=true&vCenter=true&width=600&lines=Offensive+Security+Researcher;AI+Payload+Crafter;Red+Team+Engineer;&repeat=1" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&duration=4000&pause=1000&color=00FFFF&width=600&center=true&vCenter=true&lines=Offensive+Security+Researcher;AI-Powered+Exploitation+Engineer;Red+Team+Toolsmith;Fuzzing+%2F+Symbolic+Execution+%2F+Malware+R%26D;Application+Security+Engineer;Secure+coder;Malware+Expert;Cryptographer;Researching+Integration+of+cybersecurity+and+AI alt="Typing SVG" />
 </p>
-
 ---
 
 ## 🏅 RSA Security Scholar 2025
