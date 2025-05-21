@@ -31,8 +31,8 @@
 
 ## 💼 Experience
 
-- 🔐 **Security Analyst, NVIDIA** (Current)  
-  Advanced Red Team Automation, AI Risk Assessments, Internal Threat Simulation
+- 🔐 **Security Engineer, Amazon** (Current)  
+  Advanced Red Team Automation, Application Seurity, Internal Threat Simulation, Secure code review and Secure coding
 
 - 🧪 **Security Internships (6x)**  
   CloudSec, Malware RE, and Secure Development at multiple high-impact organizations
