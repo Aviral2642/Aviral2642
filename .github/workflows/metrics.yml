@@ -2,18 +2,21 @@ name: Update GitHub Profile with HTB Stats
 
 on:
   schedule:
-    - cron: "0 */6 * * *" # Runs every 6 hours
+    - cron: "0 */6 * * *"  # Every 6 hours
   workflow_dispatch:
 
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
     steps:
-      - uses: lowlighter/metrics@latest
+      - name: Generate Metrics
+        uses: lowlighter/metrics@latest
         with:
           filename: README.md
           token: ${{ secrets.METRICS_TOKEN }}
-
           base: ""
+          config_timezone: America/New_York
+
+          # ✅ Enable HackTheBox plugin
           plugin_hackthebox: yes
           plugin_hackthebox_user: AviralxRoot
