@@ -84,10 +84,10 @@
 ## 🎓 Education
 
 - 🎓 **MS in Cybersecurity analytics and operations – Penn State University**  
-  GPA:43.9 | Research Assistant | RSA Scholar  
+  GPA:3.9 | Research Assistant | RSA Scholar  
   Thesis: _AI-Generated Cryptographic CTF Challenges_
 
-- 🎓 **BTech in Computer Science – [Amity University]**  
+- 🎓 **BTech in Computer Science – Amity University**  
   Focus: Cryptography, Secure Systems, Network Security
 
 ---
