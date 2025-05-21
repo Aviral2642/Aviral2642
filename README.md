@@ -3,7 +3,7 @@
 ![Cyberpunk Header](https://capsule-render.vercel.app/api?type=wave&color=gradient&text=Aviral%20Srivastava&height=200&fontSize=40&animation=twinkling)
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&duration=4000&pause=1000&color=00FFFF&width=600&center=true&vCenter=true&lines=Offensive+Security+Researcher;AI-Powered+Exploitation+Engineer;Red+Team+Toolsmith;Fuzzing+%2F+Symbolic+Execution+%2F+Malware+R%26D" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&duration=4000&pause=1000&color=00FFFF&center=true&vCenter=true&width=600&lines=Offensive+Security+Researcher;AI-Powered+Exploitation+Engineer;Red+Team+Toolsmith;Fuzzing+%2F+Symbolic+Execution+%2F+Malware+R%26D&repeat=1" alt="Typing SVG" />
 </p>
 
 ---
