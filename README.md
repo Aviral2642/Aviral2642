@@ -102,26 +102,4 @@
 
 ---
 
-## 🧠 GitHub Stats & Cyber Widgets
-
-<p align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Aviral2642&show_icons=true&theme=tokyonight&count_private=true&hide_border=true" />
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aviral2642&layout=compact&theme=tokyonight&hide_border=true" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Aviral2642&theme=matrix&margin-w=10&no-bg=true&no-frame=true" />
-</p>
-
----
-
-## 👽 Cyber-Terminal Visuals (Coming Soon)
-
-- ⚡ Interactive Terminal Portfolio  
-- 🌐 3D Live Globe for Threat Visualization  
-- 🎛️ LLM Exploit Auto-Crafter  
-- 🛰️ Recon Parser for Red Team AI Systems
-
----
-
 > 💬 _“The more they secure, the more we exploit. The future belongs to offensive AI.”_
