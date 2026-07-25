@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="424" viewBox="0 0 1200 424" role="img" aria-label="Interactive terminal: whoami">
+<defs>
+<filter id="gS" x="-70%" y="-70%" width="240%" height="240%"><feGaussianBlur stdDeviation="2.0" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="gM" x="-70%" y="-70%" width="240%" height="240%"><feGaussianBlur stdDeviation="4.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="gL" x="-70%" y="-70%" width="240%" height="240%"><feGaussianBlur stdDeviation="10.0" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1.3" fill="#000" opacity=".30"/></pattern>
+<linearGradient id="term" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#080d1a"/><stop offset="100%" stop-color="#05070f"/></linearGradient>
+<linearGradient id="bar" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#132038"/><stop offset="100%" stop-color="#0b1120"/></linearGradient>
+<linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#00f0ff"/><stop offset="50%" stop-color="#7b2dff"/>
+    <stop offset="100%" stop-color="#ff2d95"/></linearGradient>
+<style>
+    .m{font-family:'JetBrains Mono','Fira Code','SFMono-Regular',ui-monospace,Menlo,Consolas,monospace;font-size:15.5px;}
+    @keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+    .cur{animation:blink 1s steps(1) infinite;}
+    @keyframes edgeflow{0%{stroke-dashoffset:0}100%{stroke-dashoffset:-600}}
+    .flow{stroke-dasharray:14 10;animation:edgeflow 9s linear infinite;}
+    @keyframes pulse{0%,100%{opacity:.25}50%{opacity:1}}
+    .pl{animation:pulse 2s ease-in-out infinite;}
+    </style>
+</defs>
+<rect width="1200" height="424" rx="14" fill="url(#term)"/>
+<rect x="1" y="1" width="1198" height="422" rx="14" fill="none" stroke="url(#edge)" stroke-width="1.6" opacity=".75" filter="url(#gS)"/>
+<rect x="1" y="1" width="1198" height="422" rx="14" fill="none" stroke="#00f0ff" stroke-width="1" class="flow" opacity=".5"/>
+<path d="M1 15 A14 14 0 0 1 15 1 L1185 1 A14 14 0 0 1 1199 15 L1199 40 L1 40 Z" fill="url(#bar)"/>
+<line x1="0" y1="40" x2="1200" y2="40" stroke="#00f0ff" stroke-width="1" opacity=".35"/>
+<circle cx="24" cy="20.5" r="6" fill="#ff5f57" opacity=".9"/>
+<circle cx="44" cy="20.5" r="6" fill="#febc2e" opacity=".9"/>
+<circle cx="64" cy="20.5" r="6" fill="#28c840" opacity=".9"/>
+<text x="600.0" y="25.5" text-anchor="middle" class="m" font-size="12.5" fill="#5f7fa8" letter-spacing="2">root@aviral: ~/ops/offensive-ai &#8212; zsh</text>
+<circle cx="1170" cy="20.5" r="4" fill="#39ffb0" class="pl" filter="url(#gS)"/>
+<text x="1156" y="25" text-anchor="end" class="m" font-size="11" fill="#39ffb0" letter-spacing="1.6">LIVE</text>
+<clipPath id="cl0"><rect x="28" y="58.0" width="74.5" height="24"><animate attributeName="width" values="0;0;74.5;74.5;0" keyTimes="0;0.0327;0.0479;0.985;1" dur="18.4s" repeatCount="indefinite" calcMode="linear"/></rect></clipPath>
+<text class="m" clip-path="url(#cl0)" xml:space="preserve">
+<tspan x="30.0" y="74.0" fill="#39ffb0" font-weight="400" filter="url(#gS)">&#10095; </tspan>
+<tspan x="48.6" y="74.0" fill="#dbe7f5" font-weight="400">whoami</tspan>
+</text>
+<g opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.0327;0.0545;0.0550" dur="18.4s" repeatCount="indefinite" calcMode="discrete"/><rect class="cur" x="28" y="61.0" width="9" height="18" fill="#39ffb0" opacity=".9"><animate attributeName="x" values="28;28;102.5;102.5" keyTimes="0;0.0327;0.0479;1" dur="18.4s" repeatCount="indefinite" calcMode="linear"/></rect></g>
+<clipPath id="cl1"><rect x="28" y="86.5" width="596.2" height="24"><animate attributeName="width" values="0;0;596.2;596.2;0" keyTimes="0;0.0665;0.1048;0.985;1" dur="18.4s" repeatCount="indefinite" calcMode="linear"/></rect></clipPath>
+<text class="m" clip-path="url(#cl1)" xml:space="preserve">
+<tspan x="30.0" y="102.5" fill="#63809f" font-weight="400">  </tspan>
+<tspan x="48.6" y="102.5" fill="#00f0ff" font-weight="700" filter="url(#gS)">AVIRAL SRIVASTAVA</tspan>
+<tspan x="207.0" y="102.5" fill="#63809f" font-weight="400">   Security Engineer L4 &#183; Amazon Ads Security</tspan>
+</text>
+<g opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.0665;0.1114;0.1119" dur="18.4s" repeatCount="indefinite" calcMode="discrete"/><rect class="cur" x="28" y="89.5" width="9" height="18" fill="#39ffb0" opacity=".9"><animate attributeName="x" values="28;28;624.2;624.2" keyTimes="0;0.0665;0.1048;1" dur="18.4s" repeatCount="indefinite" calcMode="linear"/></rect></g>
+<clipPath id="cl2"><rect x="28" y="115.0" width="167.7" height="24"><animate attributeName="width" values="0;0;167.7;167.7;0" keyTimes="0;0.1103;0.1260;0.985;1" dur="18.4s" repeatCount="indefinite" calcMode="linear"/></rect></clipPath>
+<text class="m" clip-path="url(#cl2)" xml:space="preserve">
+<tspan x="30.0" y="131.0" fill="#39ffb0" font-weight="400" filter="url(#gS)">&#10095; </tspan>
+<tspan x="48.6" y="131.0" fill="#dbe7f5" font-weight="400">cat</tspan>
+<tspan x="76.6" y="131.0" fill="#63809f" font-weight="400"> ./thesis.txt</tspan>
+</text>
+<g opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1103;0.1325;0.1330" dur="18.4s" repeatCount="indefinite" calcMode="discrete"/><rect class="cur" x="28" y="118.0" width="9" height="18" fill="#39ffb0" opacity=".9"><animate attributeName="x" values="28;28;195.7;195.7" keyTimes="0;0.1103;0.1260;1" dur="18.4s" repeatCount="indefinite" calcMode="linear"/></rect></g>
+<clipPath id="cl3"><rect x="28" y="143.5" width="596.2" height="24"><animate attributeName="width" values="0;0;596.2;596.2;0" keyTimes="0;0.1445;0.1828;0.985;1" dur="18.4s" repeatCount="indefinite" calcMode="linear"/></rect></clipPath>
+<text class="m" clip-path="url(#cl3)" xml:space="preserve">
+<tspan x="30.0" y="159.5" fill="#63809f" font-weight="400">  </tspan>
+<tspan x="48.6" y="159.5" fill="#dbe7f5" font-weight="400">I don't break models. I break the infrastructure they run on &#8212;</tspan>
+</text>
+<g opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1445;0.1894;0.1899" dur="18.4s" repeatCount="indefinite" calcMode="discrete"/><rect class="cur" x="28" y="146.5" width="9" height="18" fill="#39ffb0" opacity=".9"><animate attributeName="x" values="28;28;624.2;624.2" keyTimes="0;0.1445;0.1828;1" dur="18.4s" repeatCount="indefinite" calcMode="linear"/></rect></g>
+<clipPath id="cl4"><rect x="28" y="172.0" width="558.9" height="24"><animate attributeName="width" values="0;0;558.9;558.9;0" keyTimes="0;0.1883;0.2406;0.985;1" dur="18.4s" repeatCount="indefinite" calcMode="linear"/></rect></clipPath>
+<text class="m" clip-path="url(#cl4)" xml:space="preserve">
+<tspan x="30.0" y="188.0" fill="#63809f" font-weight="400">  </tspan>
+<tspan x="48.6" y="188.0" fill="#dbe7f5" font-weight="400">orchestrators, tokenizers, serializers, inference engines.</tspan>
+</text>
+<g opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1883;0.2471;0.2477" dur="18.4s" repeatCount="indefinite" calcMode="discrete"/><rect class="cur" x="28" y="175.0" width="9" height="18" fill="#39ffb0" opacity=".9"><animate attributeName="x" values="28;28;586.9;586.9" keyTimes="0;0.1883;0.2406;1" dur="18.4s" repeatCount="indefinite" calcMode="linear"/></rect></g>
+<clipPath id="cl5"><rect x="28" y="200.5" width="139.7" height="24"><animate attributeName="width" values="0;0;139.7;139.7;0" keyTimes="0;0.2460;0.2613;0.985;1" dur="18.4s" repeatCount="indefinite" calcMode="linear"/></rect></clipPath>
+<text class="m" clip-path="url(#cl5)" xml:space="preserve">
+<tspan x="30.0" y="216.5" fill="#39ffb0" font-weight="400" filter="url(#gS)">&#10095; </tspan>
+<tspan x="48.6" y="216.5" fill="#dbe7f5" font-weight="400">ls</tspan>
+<tspan x="67.3" y="216.5" fill="#63809f" font-weight="400"> -l ./cves/</tspan>
+</text>
+<g opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.2460;0.2678;0.2684" dur="18.4s" repeatCount="indefinite" calcMode="discrete"/><rect class="cur" x="28" y="203.5" width="9" height="18" fill="#39ffb0" opacity=".9"><animate attributeName="x" values="28;28;167.7;167.7" keyTimes="0;0.2460;0.2613;1" dur="18.4s" repeatCount="indefinite" calcMode="linear"/></rect></g>
+<clipPath id="cl6"><rect x="28" y="229.0" width="549.6" height="24"><animate attributeName="width" values="0;0;549.6;549.6;0" keyTimes="0;0.2798;0.3312;0.985;1" dur="18.4s" repeatCount="indefinite" calcMode="linear"/></rect></clipPath>
+<text class="m" clip-path="url(#cl6)" xml:space="preserve">
+<tspan x="30.0" y="245.0" fill="#63809f" font-weight="400">  </tspan>
+<tspan x="48.6" y="245.0" fill="#ff3b5c" font-weight="700" filter="url(#gS)">CVE-2026-33017</tspan>
+<tspan x="179.0" y="245.0" fill="#63809f" font-weight="400">  langflow      unauth RCE              </tspan>
+<tspan x="551.7" y="245.0" fill="#ff3b5c" font-weight="700" filter="url(#gS)">9.3</tspan>
+</text>
+<g opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.2798;0.3378;0.3383" dur="18.4s" repeatCount="indefinite" calcMode="discrete"/><rect class="cur" x="28" y="232.0" width="9" height="18" fill="#39ffb0" opacity=".9"><animate attributeName="x" values="28;28;577.6;577.6" keyTimes="0;0.2798;0.3312;1" dur="18.4s" repeatCount="indefinite" calcMode="linear"/></rect></g>
+<clipPath id="cl7"><rect x="28" y="257.5" width="549.6" height="24"><animate attributeName="width" values="0;0;549.6;549.6;0" keyTimes="0;0.3367;0.3721;0.985;1" dur="18.4s" repeatCount="indefinite" calcMode="linear"/></rect></clipPath>
+<text class="m" clip-path="url(#cl7)" xml:space="preserve">
+<tspan x="30.0" y="273.5" fill="#63809f" font-weight="400">  </tspan>
+<tspan x="48.6" y="273.5" fill="#f5b942" font-weight="400">CVE-2026-32628</tspan>
+<tspan x="179.0" y="273.5" fill="#63809f" font-weight="400">  anythingllm   sql injection           </tspan>
+<tspan x="551.7" y="273.5" fill="#f5b942" font-weight="400">7.4</tspan>
+</text>
+<g opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.3367;0.3786;0.3791" dur="18.4s" repeatCount="indefinite" calcMode="discrete"/><rect class="cur" x="28" y="260.5" width="9" height="18" fill="#39ffb0" opacity=".9"><animate attributeName="x" values="28;28;577.6;577.6" keyTimes="0;0.3367;0.3721;1" dur="18.4s" repeatCount="indefinite" calcMode="linear"/></rect></g>
+<clipPath id="cl8"><rect x="28" y="286.0" width="549.6" height="24"><animate attributeName="width" values="0;0;549.6;549.6;0" keyTimes="0;0.3775;0.4289;0.985;1" dur="18.4s" repeatCount="indefinite" calcMode="linear"/></rect></clipPath>
+<text class="m" clip-path="url(#cl8)" xml:space="preserve">
+<tspan x="30.0" y="302.0" fill="#63809f" font-weight="400">  </tspan>
+<tspan x="48.6" y="302.0" fill="#00f0ff" font-weight="700" filter="url(#gS)">CVE-2026-53923</tspan>
+<tspan x="179.0" y="302.0" fill="#63809f" font-weight="400">  vllm          gpu memory disclosure   </tspan>
+<tspan x="551.7" y="302.0" fill="#00f0ff" font-weight="700" filter="url(#gS)">5.3</tspan>
+</text>
+<g opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.3775;0.4355;0.4360" dur="18.4s" repeatCount="indefinite" calcMode="discrete"/><rect class="cur" x="28" y="289.0" width="9" height="18" fill="#39ffb0" opacity=".9"><animate attributeName="x" values="28;28;577.6;577.6" keyTimes="0;0.3775;0.4289;1" dur="18.4s" repeatCount="indefinite" calcMode="linear"/></rect></g>
+<clipPath id="cl9"><rect x="28" y="314.5" width="279.5" height="24"><animate attributeName="width" values="0;0;279.5;279.5;0" keyTimes="0;0.4344;0.4524;0.985;1" dur="18.4s" repeatCount="indefinite" calcMode="linear"/></rect></clipPath>
+<text class="m" clip-path="url(#cl9)" xml:space="preserve">
+<tspan x="30.0" y="330.5" fill="#39ffb0" font-weight="400" filter="url(#gS)">&#10095; </tspan>
+<tspan x="48.6" y="330.5" fill="#dbe7f5" font-weight="400">./disclose</tspan>
+<tspan x="141.8" y="330.5" fill="#63809f" font-weight="400"> --vendor-declined</tspan>
+</text>
+<g opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.4344;0.4589;0.4594" dur="18.4s" repeatCount="indefinite" calcMode="discrete"/><rect class="cur" x="28" y="317.5" width="9" height="18" fill="#39ffb0" opacity=".9"><animate attributeName="x" values="28;28;307.5;307.5" keyTimes="0;0.4344;0.4524;1" dur="18.4s" repeatCount="indefinite" calcMode="linear"/></rect></g>
+<clipPath id="cl10"><rect x="28" y="343.0" width="577.6" height="24"><animate attributeName="width" values="0;0;577.6;577.6;0" keyTimes="0;0.4709;0.5249;0.985;1" dur="18.4s" repeatCount="indefinite" calcMode="linear"/></rect></clipPath>
+<text class="m" clip-path="url(#cl10)" xml:space="preserve">
+<tspan x="30.0" y="359.0" fill="#63809f" font-weight="400">  </tspan>
+<tspan x="48.6" y="359.0" fill="#c084fc" font-weight="400">xgboost</tspan>
+<tspan x="113.8" y="359.0" fill="#63809f" font-weight="400"> &#215;5  &#183;  </tspan>
+<tspan x="188.4" y="359.0" fill="#c084fc" font-weight="400">sentencepiece</tspan>
+<tspan x="309.5" y="359.0" fill="#63809f" font-weight="400"> &#215;2  &#183;  </tspan>
+<tspan x="384.0" y="359.0" fill="#c084fc" font-weight="400">vllm</tspan>
+<tspan x="421.3" y="359.0" fill="#dbe7f5" font-weight="400">  &#8594; published anyway</tspan>
+</text>
+<g opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.4709;0.5315;0.5320" dur="18.4s" repeatCount="indefinite" calcMode="discrete"/><rect class="cur" x="28" y="346.0" width="9" height="18" fill="#39ffb0" opacity=".9"><animate attributeName="x" values="28;28;605.6;605.6" keyTimes="0;0.4709;0.5249;1" dur="18.4s" repeatCount="indefinite" calcMode="linear"/></rect></g>
+<clipPath id="cl11"><rect x="28" y="371.5" width="27.9" height="24"><animate attributeName="width" values="0;0;27.9;27.9;0" keyTimes="0;0.5304;0.5456;0.985;1" dur="18.4s" repeatCount="indefinite" calcMode="linear"/></rect></clipPath>
+<text class="m" clip-path="url(#cl11)" xml:space="preserve">
+<tspan x="30.0" y="387.5" fill="#39ffb0" font-weight="400" filter="url(#gS)">&#10095; </tspan>
+<tspan x="48.6" y="387.5" fill="#dbe7f5" font-weight="400">_</tspan>
+</text>
+<g opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.5304;0.5522;0.5527" dur="18.4s" repeatCount="indefinite" calcMode="discrete"/><rect class="cur" x="28" y="374.5" width="9" height="18" fill="#39ffb0" opacity=".9"><animate attributeName="x" values="28;28;55.9;55.9" keyTimes="0;0.5304;0.5456;1" dur="18.4s" repeatCount="indefinite" calcMode="linear"/></rect></g>
+<rect width="1200" height="424" rx="14" fill="url(#scan)" opacity=".5"/>
+</svg>
