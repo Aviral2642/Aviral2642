@@ -213,31 +213,5 @@ AppSec reviews · threat modeling · penetration testing · AI/ML security · ag
 <img src="https://raw.githubusercontent.com/Aviral2642/Aviral2642/main/assets/divider.svg?v=2" width="100%" />
 
 <div align="center">
-
-## `◈` TELEMETRY
-
-### `▸` The snake eats my commits
-
-<img src="https://raw.githubusercontent.com/Aviral2642/Aviral2642/output/snake.svg" alt="Snake consuming the contribution graph" width="100%" />
-
-<sub>Regenerated twice a day by a GitHub Action — it eats the contribution graph square by square.</sub>
-
-<br/>
-
-<img src="https://github-readme-stats.vercel.app/api?username=Aviral2642&show_icons=true&hide_border=true&bg_color=05070E&title_color=00F0FF&icon_color=FF2D95&text_color=A9C3DA&ring_color=00F0FF" height="165" />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Aviral2642&hide_border=true&background=05070E&ring=00F0FF&fire=FF2D95&currStreakLabel=00F0FF&sideLabels=A9C3DA&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=5F7FA8" height="165" />
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aviral2642&layout=compact&hide_border=true&bg_color=05070E&title_color=00F0FF&text_color=A9C3DA&langs_count=8" height="165" />
-<img src="https://github-profile-trophy.vercel.app/?username=Aviral2642&theme=matrix&no-frame=true&no-bg=true&column=4&row=2&margin-w=6&margin-h=6" height="165" />
-
-<br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Aviral2642&bg_color=05070E&color=00F0FF&line=FF2D95&point=39FFB0&area=true&area_color=7B2DFF&hide_border=true&custom_title=CONTRIBUTION%20WAVEFORM" width="100%" />
-
-</div>
-
-<img src="https://raw.githubusercontent.com/Aviral2642/Aviral2642/main/assets/divider.svg?v=2" width="100%" />
-
-<div align="center">
   <img src="https://raw.githubusercontent.com/Aviral2642/Aviral2642/main/assets/footer.svg?v=2" alt="The future belongs to offensive AI" width="100%" />
 </div>
