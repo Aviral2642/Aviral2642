@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Pwnie Awards 2026 nominee, Best Server-Side and Cloud Bug, for Langflow CVE-2026-33017">
+<defs>
+<filter id="gS" x="-70%" y="-70%" width="240%" height="240%"><feGaussianBlur stdDeviation="2.0" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="gM" x="-70%" y="-70%" width="240%" height="240%"><feGaussianBlur stdDeviation="4.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="gL" x="-70%" y="-70%" width="240%" height="240%"><feGaussianBlur stdDeviation="10.0" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="gT" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="1.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1.3" fill="#000" opacity=".30"/></pattern>
+
+<linearGradient id="pBg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0c0803"/><stop offset="45%" stop-color="#120c04"/><stop offset="100%" stop-color="#07050a"/></linearGradient>
+<radialGradient id="pHalo" cx="50%" cy="52%" r="62%"><stop offset="0%" stop-color="#f5b942" stop-opacity=".26"/><stop offset="45%" stop-color="#b8791f" stop-opacity=".12"/><stop offset="100%" stop-color="#000" stop-opacity="0"/></radialGradient>
+<linearGradient id="pTitle" gradientUnits="userSpaceOnUse" x1="300" y1="0" x2="900" y2="0"><stop offset="0%" stop-color="#b8791f"/><stop offset="22%" stop-color="#f5b942"/><stop offset="50%" stop-color="#ffe9a8"/><stop offset="78%" stop-color="#f5b942"/><stop offset="100%" stop-color="#b8791f"/></linearGradient>
+<linearGradient id="pRule" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#f5b942" stop-opacity="0"/><stop offset="50%" stop-color="#ffe9a8" stop-opacity=".95"/><stop offset="100%" stop-color="#f5b942" stop-opacity="0"/></linearGradient>
+<linearGradient id="pShine" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="200" y2="0"><stop offset="0%" stop-color="#fff" stop-opacity="0"/><stop offset="50%" stop-color="#fff" stop-opacity=".55"/><stop offset="100%" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<style>
+.m{font-family:'JetBrains Mono','Fira Code','SFMono-Regular',ui-monospace,Menlo,Consolas,monospace;}
+@keyframes halo{0%,100%{opacity:.55}50%{opacity:1}}
+.halo{animation:halo 4.6s ease-in-out infinite;}
+@keyframes shine{0%{transform:translateX(-260px)}55%,100%{transform:translateX(1240px)}}
+.shine{animation:shine 5.2s cubic-bezier(.5,0,.5,1) infinite;}
+@keyframes rise{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
+.rise{animation:rise .9s cubic-bezier(.2,.8,.2,1) both;}
+@keyframes leaf{from{opacity:0;transform:scale(.72)}to{opacity:.92;transform:scale(1)}}
+.leaf{animation:leaf .7s cubic-bezier(.2,.9,.2,1) both;transform-origin:600px 178px;}
+@keyframes blip{0%,100%{opacity:1}50%{opacity:.2}}
+.blip{animation:blip 1.7s ease-in-out infinite;}
+@keyframes spark{0%,100%{opacity:.15;transform:scale(.8)}50%{opacity:.9;transform:scale(1.25)}}
+.spark{animation:spark 3.1s ease-in-out infinite;}
+@keyframes flow{0%{stroke-dashoffset:0}100%{stroke-dashoffset:-560}}
+.flow{stroke-dasharray:12 9;animation:flow 11s linear infinite;}
+</style>
+</defs>
+<rect width="1200" height="300" rx="12" fill="url(#pBg)"/>
+<g class="halo"><rect width="1200" height="300" rx="12" fill="url(#pHalo)"/></g>
+<circle class="spark" cx="20.0" cy="22.0" r="0.70" fill="#f5b942" opacity=".3" style="animation-delay:0.00s"/>
+<circle class="spark" cx="157.5" cy="83.8" r="1.05" fill="#f5b942" opacity=".3" style="animation-delay:-0.29s"/>
+<circle class="spark" cx="295.0" cy="145.6" r="1.40" fill="#f5b942" opacity=".3" style="animation-delay:-0.58s"/>
+<circle class="spark" cx="432.5" cy="207.4" r="0.70" fill="#f5b942" opacity=".3" style="animation-delay:-0.87s"/>
+<circle class="spark" cx="570.0" cy="269.2" r="1.05" fill="#f5b942" opacity=".3" style="animation-delay:-1.16s"/>
+<circle class="spark" cx="707.5" cy="75.0" r="1.40" fill="#f5b942" opacity=".3" style="animation-delay:-1.45s"/>
+<circle class="spark" cx="845.0" cy="136.8" r="0.70" fill="#f5b942" opacity=".3" style="animation-delay:-1.74s"/>
+<circle class="spark" cx="982.5" cy="198.6" r="1.05" fill="#f5b942" opacity=".3" style="animation-delay:-2.03s"/>
+<circle class="spark" cx="1120.0" cy="260.4" r="1.40" fill="#f5b942" opacity=".3" style="animation-delay:-2.32s"/>
+<circle class="spark" cx="97.5" cy="66.2" r="0.70" fill="#f5b942" opacity=".3" style="animation-delay:-2.61s"/>
+<circle class="spark" cx="235.0" cy="128.0" r="1.05" fill="#f5b942" opacity=".3" style="animation-delay:-2.90s"/>
+<circle class="spark" cx="372.5" cy="189.8" r="1.40" fill="#f5b942" opacity=".3" style="animation-delay:-3.19s"/>
+<circle class="spark" cx="510.0" cy="251.6" r="0.70" fill="#f5b942" opacity=".3" style="animation-delay:-3.48s"/>
+<circle class="spark" cx="647.5" cy="57.4" r="1.05" fill="#f5b942" opacity=".3" style="animation-delay:0.00s"/>
+<circle class="spark" cx="785.0" cy="119.2" r="1.40" fill="#f5b942" opacity=".3" style="animation-delay:-0.29s"/>
+<circle class="spark" cx="922.5" cy="181.0" r="0.70" fill="#f5b942" opacity=".3" style="animation-delay:-0.58s"/>
+<circle class="spark" cx="1060.0" cy="242.8" r="1.05" fill="#f5b942" opacity=".3" style="animation-delay:-0.87s"/>
+<circle class="spark" cx="37.5" cy="48.6" r="1.40" fill="#f5b942" opacity=".3" style="animation-delay:-1.16s"/>
+<circle class="spark" cx="175.0" cy="110.4" r="0.70" fill="#f5b942" opacity=".3" style="animation-delay:-1.45s"/>
+<circle class="spark" cx="312.5" cy="172.2" r="1.05" fill="#f5b942" opacity=".3" style="animation-delay:-1.74s"/>
+<circle class="spark" cx="450.0" cy="234.0" r="1.40" fill="#f5b942" opacity=".3" style="animation-delay:-2.03s"/>
+<circle class="spark" cx="587.5" cy="39.8" r="0.70" fill="#f5b942" opacity=".3" style="animation-delay:-2.32s"/>
+<circle class="spark" cx="725.0" cy="101.6" r="1.05" fill="#f5b942" opacity=".3" style="animation-delay:-2.61s"/>
+<circle class="spark" cx="862.5" cy="163.4" r="1.40" fill="#f5b942" opacity=".3" style="animation-delay:-2.90s"/>
+<circle class="spark" cx="1000.0" cy="225.2" r="0.70" fill="#f5b942" opacity=".3" style="animation-delay:-3.19s"/>
+<circle class="spark" cx="1137.5" cy="31.0" r="1.05" fill="#f5b942" opacity=".3" style="animation-delay:-3.48s"/>
+<circle class="spark" cx="115.0" cy="92.8" r="1.40" fill="#f5b942" opacity=".3" style="animation-delay:0.00s"/>
+<circle class="spark" cx="252.5" cy="154.6" r="0.70" fill="#f5b942" opacity=".3" style="animation-delay:-0.29s"/>
+<circle class="spark" cx="390.0" cy="216.4" r="1.05" fill="#f5b942" opacity=".3" style="animation-delay:-0.58s"/>
+<circle class="spark" cx="527.5" cy="22.2" r="1.40" fill="#f5b942" opacity=".3" style="animation-delay:-0.87s"/>
+<circle class="spark" cx="665.0" cy="84.0" r="0.70" fill="#f5b942" opacity=".3" style="animation-delay:-1.16s"/>
+<circle class="spark" cx="802.5" cy="145.8" r="1.05" fill="#f5b942" opacity=".3" style="animation-delay:-1.45s"/>
+<circle class="spark" cx="940.0" cy="207.6" r="1.40" fill="#f5b942" opacity=".3" style="animation-delay:-1.74s"/>
+<circle class="spark" cx="1077.5" cy="269.4" r="0.70" fill="#f5b942" opacity=".3" style="animation-delay:-2.03s"/>
+<circle class="spark" cx="55.0" cy="75.2" r="1.05" fill="#f5b942" opacity=".3" style="animation-delay:-2.32s"/>
+<circle class="spark" cx="192.5" cy="137.0" r="1.40" fill="#f5b942" opacity=".3" style="animation-delay:-2.61s"/>
+<circle class="spark" cx="330.0" cy="198.8" r="0.70" fill="#f5b942" opacity=".3" style="animation-delay:-2.90s"/>
+<circle class="spark" cx="467.5" cy="260.6" r="1.05" fill="#f5b942" opacity=".3" style="animation-delay:-3.19s"/>
+<circle class="spark" cx="605.0" cy="66.4" r="1.40" fill="#f5b942" opacity=".3" style="animation-delay:-3.48s"/>
+<circle class="spark" cx="742.5" cy="128.2" r="0.70" fill="#f5b942" opacity=".3" style="animation-delay:0.00s"/>
+<circle class="spark" cx="880.0" cy="190.0" r="1.05" fill="#f5b942" opacity=".3" style="animation-delay:-0.29s"/>
+<circle class="spark" cx="1017.5" cy="251.8" r="1.40" fill="#f5b942" opacity=".3" style="animation-delay:-0.58s"/>
+<circle class="spark" cx="1155.0" cy="57.6" r="0.70" fill="#f5b942" opacity=".3" style="animation-delay:-0.87s"/>
+<circle class="spark" cx="132.5" cy="119.4" r="1.05" fill="#f5b942" opacity=".3" style="animation-delay:-1.16s"/>
+<circle class="spark" cx="270.0" cy="181.2" r="1.40" fill="#f5b942" opacity=".3" style="animation-delay:-1.45s"/>
+<circle class="spark" cx="407.5" cy="243.0" r="0.70" fill="#f5b942" opacity=".3" style="animation-delay:-1.74s"/>
+<rect x="1" y="1" width="1198" height="298" rx="12" fill="none" stroke="#f5b942" stroke-width="1.5" opacity=".55" filter="url(#gS)"/>
+<rect x="1" y="1" width="1198" height="298" rx="12" fill="none" stroke="#ffe9a8" stroke-width="1" class="flow" opacity=".35"/>
+<path d="M 60 26 L 26 26 L 26 60" fill="none" stroke="#f5b942" stroke-width="2" opacity=".8" filter="url(#gS)"/>
+<path d="M 1140 26 L 1174 26 L 1174 60" fill="none" stroke="#f5b942" stroke-width="2" opacity=".8" filter="url(#gS)"/>
+<path d="M 60 274 L 26 274 L 26 240" fill="none" stroke="#f5b942" stroke-width="2" opacity=".8" filter="url(#gS)"/>
+<path d="M 1140 274 L 1174 274 L 1174 240" fill="none" stroke="#f5b942" stroke-width="2" opacity=".8" filter="url(#gS)"/>
+<g class="m" font-size="10.5" letter-spacing="2.6" fill="#b99a5e">
+<circle cx="52" cy="52" r="3.6" fill="#ffe9a8" class="blip" filter="url(#gS)"/>
+<text x="66" y="56">PWNIE AWARDS &#183; DEF CON 34 &#183; LAS VEGAS</text>
+<text x="1148" y="56" text-anchor="end" fill="#ffe9a8">AI INFRASTRUCTURE // SERVER-SIDE</text>
+</g>
+<line x1="52" y1="70" x2="1148" y2="70" stroke="url(#pRule)" stroke-width="1"/>
+<g filter="url(#gS)"><g class="leaf" style="animation-delay:0.35s"><ellipse cx="180.3" cy="104.7" rx="10.5" ry="3.5" transform="rotate(370.0 180.3 104.7)" fill="#f5b942" opacity=".6"/><ellipse cx="180.3" cy="104.7" rx="5.2" ry="1.6" transform="rotate(370.0 180.3 104.7)" fill="#ffe9a8" opacity=".55"/></g><g class="leaf" style="animation-delay:0.39s"><ellipse cx="171.9" cy="111.6" rx="11.3" ry="3.7" transform="rotate(358.3 171.9 111.6)" fill="#f5b942" opacity=".6"/><ellipse cx="171.9" cy="111.6" rx="5.7" ry="1.7" transform="rotate(358.3 171.9 111.6)" fill="#ffe9a8" opacity=".55"/></g><g class="leaf" style="animation-delay:0.44s"><ellipse cx="164.4" cy="121.3" rx="12.2" ry="4.0" transform="rotate(346.7 164.4 121.3)" fill="#f5b942" opacity=".6"/><ellipse cx="164.4" cy="121.3" rx="6.1" ry="1.8" transform="rotate(346.7 164.4 121.3)" fill="#ffe9a8" opacity=".55"/></g><g class="leaf" style="animation-delay:0.48s"><ellipse cx="158.3" cy="133.3" rx="13.0" ry="4.3" transform="rotate(335.0 158.3 133.3)" fill="#f5b942" opacity=".6"/><ellipse cx="158.3" cy="133.3" rx="6.5" ry="1.9" transform="rotate(335.0 158.3 133.3)" fill="#ffe9a8" opacity=".55"/></g><g class="leaf" style="animation-delay:0.53s"><ellipse cx="153.8" cy="147.1" rx="13.8" ry="4.6" transform="rotate(323.3 153.8 147.1)" fill="#f5b942" opacity=".6"/><ellipse cx="153.8" cy="147.1" rx="6.9" ry="2.1" transform="rotate(323.3 153.8 147.1)" fill="#ffe9a8" opacity=".55"/></g><g class="leaf" style="animation-delay:0.57s"><ellipse cx="151.0" cy="162.2" rx="14.7" ry="4.8" transform="rotate(311.7 151.0 162.2)" fill="#f5b942" opacity=".6"/><ellipse cx="151.0" cy="162.2" rx="7.3" ry="2.2" transform="rotate(311.7 151.0 162.2)" fill="#ffe9a8" opacity=".55"/></g><g class="leaf" style="animation-delay:0.62s"><ellipse cx="150.0" cy="178.0" rx="15.5" ry="5.1" transform="rotate(300.0 150.0 178.0)" fill="#f5b942" opacity=".6"/><ellipse cx="150.0" cy="178.0" rx="7.8" ry="2.3" transform="rotate(300.0 150.0 178.0)" fill="#ffe9a8" opacity=".55"/></g><g class="leaf" style="animation-delay:0.67s"><ellipse cx="151.0" cy="193.8" rx="14.7" ry="4.8" transform="rotate(288.3 151.0 193.8)" fill="#f5b942" opacity=".6"/><ellipse cx="151.0" cy="193.8" rx="7.3" ry="2.2" transform="rotate(288.3 151.0 193.8)" fill="#ffe9a8" opacity=".55"/></g><g class="leaf" style="animation-delay:0.71s"><ellipse cx="153.8" cy="208.9" rx="13.8" ry="4.6" transform="rotate(276.7 153.8 208.9)" fill="#f5b942" opacity=".6"/><ellipse cx="153.8" cy="208.9" rx="6.9" ry="2.1" transform="rotate(276.7 153.8 208.9)" fill="#ffe9a8" opacity=".55"/></g><g class="leaf" style="animation-delay:0.75s"><ellipse cx="158.3" cy="222.7" rx="13.0" ry="4.3" transform="rotate(265.0 158.3 222.7)" fill="#f5b942" opacity=".6"/><ellipse cx="158.3" cy="222.7" rx="6.5" ry="1.9" transform="rotate(265.0 158.3 222.7)" fill="#ffe9a8" opacity=".55"/></g><g class="leaf" style="animation-delay:0.80s"><ellipse cx="164.4" cy="234.7" rx="12.2" ry="4.0" transform="rotate(253.3 164.4 234.7)" fill="#f5b942" opacity=".6"/><ellipse cx="164.4" cy="234.7" rx="6.1" ry="1.8" transform="rotate(253.3 164.4 234.7)" fill="#ffe9a8" opacity=".55"/></g><g class="leaf" style="animation-delay:0.84s"><ellipse cx="171.9" cy="244.4" rx="11.3" ry="3.7" transform="rotate(241.7 171.9 244.4)" fill="#f5b942" opacity=".6"/><ellipse cx="171.9" cy="244.4" rx="5.7" ry="1.7" transform="rotate(241.7 171.9 244.4)" fill="#ffe9a8" opacity=".55"/></g><g class="leaf" style="animation-delay:0.89s"><ellipse cx="180.3" cy="251.3" rx="10.5" ry="3.5" transform="rotate(230.0 180.3 251.3)" fill="#f5b942" opacity=".6"/><ellipse cx="180.3" cy="251.3" rx="5.2" ry="1.6" transform="rotate(230.0 180.3 251.3)" fill="#ffe9a8" opacity=".55"/></g><circle cx="242.0" cy="178.0" r="2.6" fill="#ffe9a8" opacity=".8"/><g class="leaf" style="animation-delay:0.35s"><ellipse cx="1019.7" cy="104.7" rx="10.5" ry="3.5" transform="rotate(-370.0 1019.7 104.7)" fill="#f5b942" opacity=".6"/><ellipse cx="1019.7" cy="104.7" rx="5.2" ry="1.6" transform="rotate(-370.0 1019.7 104.7)" fill="#ffe9a8" opacity=".55"/></g><g class="leaf" style="animation-delay:0.39s"><ellipse cx="1028.1" cy="111.6" rx="11.3" ry="3.7" transform="rotate(-358.3 1028.1 111.6)" fill="#f5b942" opacity=".6"/><ellipse cx="1028.1" cy="111.6" rx="5.7" ry="1.7" transform="rotate(-358.3 1028.1 111.6)" fill="#ffe9a8" opacity=".55"/></g><g class="leaf" style="animation-delay:0.44s"><ellipse cx="1035.6" cy="121.3" rx="12.2" ry="4.0" transform="rotate(-346.7 1035.6 121.3)" fill="#f5b942" opacity=".6"/><ellipse cx="1035.6" cy="121.3" rx="6.1" ry="1.8" transform="rotate(-346.7 1035.6 121.3)" fill="#ffe9a8" opacity=".55"/></g><g class="leaf" style="animation-delay:0.48s"><ellipse cx="1041.7" cy="133.3" rx="13.0" ry="4.3" transform="rotate(-335.0 1041.7 133.3)" fill="#f5b942" opacity=".6"/><ellipse cx="1041.7" cy="133.3" rx="6.5" ry="1.9" transform="rotate(-335.0 1041.7 133.3)" fill="#ffe9a8" opacity=".55"/></g><g class="leaf" style="animation-delay:0.53s"><ellipse cx="1046.2" cy="147.1" rx="13.8" ry="4.6" transform="rotate(-323.3 1046.2 147.1)" fill="#f5b942" opacity=".6"/><ellipse cx="1046.2" cy="147.1" rx="6.9" ry="2.1" transform="rotate(-323.3 1046.2 147.1)" fill="#ffe9a8" opacity=".55"/></g><g class="leaf" style="animation-delay:0.57s"><ellipse cx="1049.0" cy="162.2" rx="14.7" ry="4.8" transform="rotate(-311.7 1049.0 162.2)" fill="#f5b942" opacity=".6"/><ellipse cx="1049.0" cy="162.2" rx="7.3" ry="2.2" transform="rotate(-311.7 1049.0 162.2)" fill="#ffe9a8" opacity=".55"/></g><g class="leaf" style="animation-delay:0.62s"><ellipse cx="1050.0" cy="178.0" rx="15.5" ry="5.1" transform="rotate(-300.0 1050.0 178.0)" fill="#f5b942" opacity=".6"/><ellipse cx="1050.0" cy="178.0" rx="7.8" ry="2.3" transform="rotate(-300.0 1050.0 178.0)" fill="#ffe9a8" opacity=".55"/></g><g class="leaf" style="animation-delay:0.67s"><ellipse cx="1049.0" cy="193.8" rx="14.7" ry="4.8" transform="rotate(-288.3 1049.0 193.8)" fill="#f5b942" opacity=".6"/><ellipse cx="1049.0" cy="193.8" rx="7.3" ry="2.2" transform="rotate(-288.3 1049.0 193.8)" fill="#ffe9a8" opacity=".55"/></g><g class="leaf" style="animation-delay:0.71s"><ellipse cx="1046.2" cy="208.9" rx="13.8" ry="4.6" transform="rotate(-276.7 1046.2 208.9)" fill="#f5b942" opacity=".6"/><ellipse cx="1046.2" cy="208.9" rx="6.9" ry="2.1" transform="rotate(-276.7 1046.2 208.9)" fill="#ffe9a8" opacity=".55"/></g><g class="leaf" style="animation-delay:0.75s"><ellipse cx="1041.7" cy="222.7" rx="13.0" ry="4.3" transform="rotate(-265.0 1041.7 222.7)" fill="#f5b942" opacity=".6"/><ellipse cx="1041.7" cy="222.7" rx="6.5" ry="1.9" transform="rotate(-265.0 1041.7 222.7)" fill="#ffe9a8" opacity=".55"/></g><g class="leaf" style="animation-delay:0.80s"><ellipse cx="1035.6" cy="234.7" rx="12.2" ry="4.0" transform="rotate(-253.3 1035.6 234.7)" fill="#f5b942" opacity=".6"/><ellipse cx="1035.6" cy="234.7" rx="6.1" ry="1.8" transform="rotate(-253.3 1035.6 234.7)" fill="#ffe9a8" opacity=".55"/></g><g class="leaf" style="animation-delay:0.84s"><ellipse cx="1028.1" cy="244.4" rx="11.3" ry="3.7" transform="rotate(-241.7 1028.1 244.4)" fill="#f5b942" opacity=".6"/><ellipse cx="1028.1" cy="244.4" rx="5.7" ry="1.7" transform="rotate(-241.7 1028.1 244.4)" fill="#ffe9a8" opacity=".55"/></g><g class="leaf" style="animation-delay:0.89s"><ellipse cx="1019.7" cy="251.3" rx="10.5" ry="3.5" transform="rotate(-230.0 1019.7 251.3)" fill="#f5b942" opacity=".6"/><ellipse cx="1019.7" cy="251.3" rx="5.2" ry="1.6" transform="rotate(-230.0 1019.7 251.3)" fill="#ffe9a8" opacity=".55"/></g><circle cx="958.0" cy="178.0" r="2.6" fill="#ffe9a8" opacity=".8"/></g>
+<text x="196" y="188" text-anchor="middle" class="m rise" font-size="30" font-weight="700" fill="#ffe9a8" opacity=".95" filter="url(#gS)" style="animation-delay:.55s">2026</text>
+<text x="1004" y="172" text-anchor="middle" class="m rise" font-size="16" font-weight="700" letter-spacing="1" fill="#ffe9a8" opacity=".95" filter="url(#gS)" style="animation-delay:.55s">DEF CON</text>
+<text x="1004" y="193" text-anchor="middle" class="m rise" font-size="16" font-weight="700" letter-spacing="1" fill="#ffe9a8" opacity=".95" filter="url(#gS)" style="animation-delay:.6s">34</text>
+<g class="rise" style="animation-delay:.15s"><text x="600" y="118" text-anchor="middle" class="m" font-size="12.5" font-weight="700" letter-spacing="7.5" fill="#f5b942" opacity=".95">PWNIE AWARD NOMINEE</text></g>
+<g class="rise" style="animation-delay:.3s">
+<text x="600" y="178" text-anchor="middle" class="m" font-size="34" font-weight="700" letter-spacing="1.2" fill="#f5b942" opacity=".4" filter="url(#gL)">BEST SERVER-SIDE / CLOUD BUG</text>
+<text x="600" y="178" text-anchor="middle" class="m" font-size="34" font-weight="700" letter-spacing="1.2" fill="url(#pTitle)" filter="url(#gS)">BEST SERVER-SIDE / CLOUD BUG</text>
+</g>
+<clipPath id="pClip"><text x="600" y="178" text-anchor="middle" class="m" font-size="34" font-weight="700" letter-spacing="1.2">BEST SERVER-SIDE / CLOUD BUG</text></clipPath>
+<g clip-path="url(#pClip)"><rect class="shine" x="-200" y="144" width="200" height="44" fill="url(#pShine)"/></g>
+<line x1="330" y1="204" x2="870" y2="204" stroke="url(#pRule)" stroke-width="1.4" filter="url(#gS)"/>
+<circle cy="204" r="2.4" fill="#ffe9a8" filter="url(#gS)"><animate attributeName="cx" values="330;870;330" dur="7s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/></circle>
+<g class="rise" style="animation-delay:.5s">
+<text x="600" y="240" text-anchor="middle" class="m" font-size="15" letter-spacing="1.4" fill="#9fb6cc">nominated for <tspan fill="#ff2d95" font-weight="700">CVE-2026-33017</tspan> &#8212; unauthenticated RCE in <tspan fill="#eaf6ff" font-weight="700">Langflow</tspan></text>
+<text x="600" y="264" text-anchor="middle" class="m" font-size="10.5" letter-spacing="2.6" fill="#7f9ab5">CVSS 9.3 CRITICAL &#183; CISA KEV &#183; EXPLOITED IN THE WILD WITHIN 20 HOURS OF DISCLOSURE</text>
+</g>
+<rect width="1200" height="300" rx="12" fill="url(#scan)" opacity=".35"/>
+</svg>
