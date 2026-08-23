@@ -109,7 +109,7 @@ Nothing crashes. No sanitizer fires. Every individual line of the kernel looks c
 
 <!-- HTB:START -->
 <div align="center">
-  <a href="https://app.hackthebox.com/users/212766"><img src="https://raw.githubusercontent.com/Aviral2642/Aviral2642/main/assets/htb.svg?v=de6e94fe" alt="Hack The Box live telemetry — AviralxRoot" width="100%" /></a>
+  <a href="https://app.hackthebox.com/users/212766"><img src="https://raw.githubusercontent.com/Aviral2642/Aviral2642/main/assets/htb.svg?v=a5e58e1b" alt="Hack The Box live telemetry — AviralxRoot" width="100%" /></a>
 </div>
 
 <div align="center">
@@ -118,7 +118,7 @@ Nothing crashes. No sanitizer fires. Every individual line of the kernel looks c
 
 </div>
 
-> **AviralxRoot** — **Guru** on points, **Prodigy III · level 89** on XP. Global **#109**, **1,941** points, **68** user and **50** root flags, **227** challenges, **148** Sherlock tasks, and **6** fortresses cleared end to end. Nothing on this card is typed by hand.
+> **AviralxRoot** — **Guru** on points, **Prodigy III · level 89** on XP. Global **#109** · **#15** in United States, **1,941** points, **68** user and **50** root flags, **227** challenges, **148** Sherlock tasks, and **6** fortresses cleared end to end. Nothing on this card is typed by hand.
 <!-- HTB:END -->
 
 <img src="https://raw.githubusercontent.com/Aviral2642/Aviral2642/main/assets/divider.svg?v=2" width="100%" />
