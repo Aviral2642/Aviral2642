@@ -1,0 +1,176 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="783" viewBox="0 0 1200 783" role="img" aria-label="Hack The Box live telemetry for AviralxRoot" data-fp="e8a365bd96d8">
+<defs>
+<filter id="gM" x="-70%" y="-70%" width="240%" height="240%"><feGaussianBlur stdDeviation="4.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="gT" x="-70%" y="-70%" width="240%" height="240%"><feGaussianBlur stdDeviation="1.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<linearGradient id="barG" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#00f0ff"/><stop offset="60%" stop-color="#7b2dff"/><stop offset="100%" stop-color="#ff2d95"/></linearGradient>
+<linearGradient id="htbG" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#9fef00"/><stop offset="100%" stop-color="#00f0ff"/></linearGradient>
+<linearGradient id="rule" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1200" y2="0"><stop offset="0%" stop-color="#9fef00" stop-opacity="0"/><stop offset="22%" stop-color="#9fef00" stop-opacity=".8"/><stop offset="55%" stop-color="#00f0ff" stop-opacity=".7"/><stop offset="80%" stop-color="#ff2d95" stop-opacity=".6"/><stop offset="100%" stop-color="#ff2d95" stop-opacity="0"/></linearGradient>
+<radialGradient id="halo" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#9fef00" stop-opacity=".16"/><stop offset="100%" stop-color="#9fef00" stop-opacity="0"/></radialGradient>
+<pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse"><path d="M34 0H0V34" fill="none" stroke="#16203a" stroke-width="1" opacity=".5"/></pattern>
+<pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1.3" fill="#000" opacity=".26"/></pattern>
+<style>.m{font-family:'JetBrains Mono','Fira Code','SFMono-Regular',ui-monospace,Menlo,Consolas,monospace;}@keyframes fin{from{opacity:0}to{opacity:1}}.fin{animation:fin .8s ease-out both;}</style>
+</defs>
+<rect width="1200" height="783" fill="#05070e"/>
+<rect width="1200" height="783" fill="url(#grid)" opacity=".55"/>
+<ellipse cx="150" cy="120" rx="420" ry="220" fill="url(#halo)"/>
+<text x="30.0" y="41.0" class="m" font-size="19" fill="#9fef00" font-weight="700" letter-spacing="6.5" filter="url(#gM)">HACK THE BOX</text>
+<text x="268.0" y="41.0" class="m" font-size="13" fill="#6b7a99" letter-spacing="4">// LIVE TELEMETRY</text>
+<circle cx="938" cy="36" r="4" fill="#9fef00" filter="url(#gT)"><animate attributeName="opacity" values="1;.15;1" dur="2.4s" repeatCount="indefinite"/></circle>
+<text x="952.0" y="40.0" class="m" font-size="11" fill="#6b7a99" letter-spacing="1.4">UPDATED 2026-08-23 05:04 UTC</text>
+<rect x="0" y="66" width="1200" height="1.4" fill="url(#rule)"/>
+<circle cy="66.7" r="3" fill="#9fef00" filter="url(#gT)"><animate attributeName="cx" values="-20;1220" dur="6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.12;.88;1" dur="6s" repeatCount="indefinite"/></circle>
+<rect x="28.0" y="86.0" width="452.0" height="148.0" rx="10" fill="#0b0f1a" stroke="#16203a" stroke-width="1" opacity="1.0"/>
+<path d="M42.0 86.0 H28.0 V100.0" fill="none" stroke="#9fef00" stroke-width="1.4" opacity="0.5"/><path d="M466.0 86.0 H480.0 V100.0" fill="none" stroke="#9fef00" stroke-width="1.4" opacity="0.5"/><path d="M42.0 234.0 H28.0 V220.0" fill="none" stroke="#9fef00" stroke-width="1.4" opacity="0.5"/><path d="M466.0 234.0 H480.0 V220.0" fill="none" stroke="#9fef00" stroke-width="1.4" opacity="0.5"/>
+<path d="M98.0 116.0 L142.0 141.0 L142.0 191.0 L98.0 216.0 L54.0 191.0 L54.0 141.0 Z" fill="#9fef00" opacity=".08" stroke="#9fef00" stroke-width="1.4"/>
+<text x="98.0" y="179.0" class="m" font-size="44" fill="#9fef00" font-weight="700" text-anchor="middle" filter="url(#gM)">A</text>
+<text x="166.0" y="138.0" class="m" font-size="29" fill="#e6edf7" font-weight="700" letter-spacing="0.5">AviralxRoot</text>
+<text x="166.0" y="160.0" class="m" font-size="11" fill="#6b7a99" letter-spacing="0.8">joined 2019-11-13  ·  1 respects</text>
+<rect x="166.0" y="174.0" width="141.2" height="26" rx="13" fill="#9fef00" opacity=".10"/><rect x="166.0" y="174.0" width="141.2" height="26" rx="13" fill="none" stroke="#9fef00" stroke-width="1" opacity=".55"/><text x="180.0" y="191.5" class="m" font-size="10" fill="#6b7a99" letter-spacing="1.2">POINT RANK</text><text x="262.0" y="191.5" class="m" font-size="12" fill="#9fef00" font-weight="700" letter-spacing="0.6">GURU</text>
+<rect x="166.0" y="206.0" width="244.4" height="26" rx="13" fill="#c084fc" opacity=".10"/><rect x="166.0" y="206.0" width="244.4" height="26" rx="13" fill="none" stroke="#c084fc" stroke-width="1" opacity=".55"/><text x="180.0" y="223.5" class="m" font-size="10" fill="#6b7a99" letter-spacing="1.2">XP RANK</text><text x="240.4" y="223.5" class="m" font-size="12" fill="#c084fc" font-weight="700" letter-spacing="0.6">PRODIGY III · LVL 89</text>
+<rect x="496.0" y="86.0" width="336.0" height="148.0" rx="10" fill="#0b0f1a" stroke="#16203a" stroke-width="1" opacity="1.0"/>
+<path d="M510.0 86.0 H496.0 V100.0" fill="none" stroke="#f5b942" stroke-width="1.4" opacity="0.4"/><path d="M818.0 86.0 H832.0 V100.0" fill="none" stroke="#f5b942" stroke-width="1.4" opacity="0.4"/><path d="M510.0 234.0 H496.0 V220.0" fill="none" stroke="#f5b942" stroke-width="1.4" opacity="0.4"/><path d="M818.0 234.0 H832.0 V220.0" fill="none" stroke="#f5b942" stroke-width="1.4" opacity="0.4"/>
+<text x="518.0" y="116.0" class="m" font-size="10" fill="#6b7a99" letter-spacing="3">CLIMBING TO</text>
+<text x="518.0" y="146.0" class="m" font-size="24" fill="#f5b942" font-weight="700" letter-spacing="1.6" filter="url(#gM)">OMNISCIENT</text>
+<rect x="518.0" y="164.0" width="292.0" height="9" rx="4.5" fill="#33415e" opacity=".45"/><rect x="518.0" y="164.0" width="0" height="9" rx="4.5" fill="url(#barG)"><animate attributeName="width" from="0" to="32.1" dur="1.3s" begin="0.35s" fill="freeze" calcMode="spline" keySplines=".25 .1 .25 1" keyTimes="0;1" values="0;32.1"/></rect>
+<text x="518.0" y="194.0" class="m" font-size="11" fill="#6b7a99">11% of the way there</text>
+<text x="810.0" y="194.0" class="m" font-size="11" fill="#00f0ff" text-anchor="end">ownership 91.1% / 90%</text>
+<text x="518.0" y="216.0" class="m" font-size="11" fill="#6b7a99">68 user flags  ·  50 root flags</text>
+<rect x="848.0" y="86.0" width="324.0" height="148.0" rx="10" fill="#0b0f1a" stroke="#16203a" stroke-width="1" opacity="1.0"/>
+<path d="M862.0 86.0 H848.0 V100.0" fill="none" stroke="#00f0ff" stroke-width="1.4" opacity="0.45"/><path d="M1158.0 86.0 H1172.0 V100.0" fill="none" stroke="#00f0ff" stroke-width="1.4" opacity="0.45"/><path d="M862.0 234.0 H848.0 V220.0" fill="none" stroke="#00f0ff" stroke-width="1.4" opacity="0.45"/><path d="M1158.0 234.0 H1172.0 V220.0" fill="none" stroke="#00f0ff" stroke-width="1.4" opacity="0.45"/>
+<text x="870.0" y="116.0" class="m" font-size="10" fill="#6b7a99" letter-spacing="3">GLOBAL</text>
+<text x="870.0" y="160.0" class="m" font-size="42" fill="#00f0ff" font-weight="700" filter="url(#gM)">#109</text>
+<line x1="870" y1="178" x2="1150" y2="178" stroke="#16203a" stroke-width="1"/>
+<text x="870.0" y="200.0" class="m" font-size="10" fill="#6b7a99" letter-spacing="3">UNITED STATES</text>
+<text x="1150.0" y="208.0" class="m" font-size="28" fill="#ff2d95" font-weight="700" text-anchor="end" filter="url(#gM)">#15</text>
+<text x="870.0" y="222.0" class="m" font-size="10" fill="#6b7a99" opacity=".75">points leaderboard  ·  live position</text>
+<rect x="28.0" y="252.0" width="180.7" height="96.0" rx="10" fill="#0b0f1a" stroke="#16203a" stroke-width="1" opacity="1.0"/>
+<rect x="28.0" y="252" width="3" height="96" rx="1.5" fill="#00f0ff" opacity=".85"/>
+<text x="46.0" y="278.0" class="m" font-size="10" fill="#6b7a99" letter-spacing="2.2">MACHINES</text>
+<text x="46.0" y="314.0" class="m fin" font-size="29" fill="#00f0ff" font-weight="700" filter="url(#gT)">48</text>
+<text x="46.0" y="334.0" class="m" font-size="10" fill="#6b7a99">548 live  ·  9%</text>
+<rect x="220.7" y="252.0" width="180.7" height="96.0" rx="10" fill="#0b0f1a" stroke="#16203a" stroke-width="1" opacity="1.0"/>
+<rect x="220.7" y="252" width="3" height="96" rx="1.5" fill="#ff2d95" opacity=".85"/>
+<text x="238.7" y="278.0" class="m" font-size="10" fill="#6b7a99" letter-spacing="2.2">CHALLENGES</text>
+<text x="238.7" y="314.0" class="m fin" font-size="29" fill="#ff2d95" font-weight="700" filter="url(#gT)">227</text>
+<text x="238.7" y="334.0" class="m" font-size="10" fill="#6b7a99">850 live  ·  27%</text>
+<rect x="413.3" y="252.0" width="180.7" height="96.0" rx="10" fill="#0b0f1a" stroke="#16203a" stroke-width="1" opacity="1.0"/>
+<rect x="413.3" y="252" width="3" height="96" rx="1.5" fill="#c084fc" opacity=".85"/>
+<text x="431.3" y="278.0" class="m" font-size="10" fill="#6b7a99" letter-spacing="2.2">SHERLOCK TASKS</text>
+<text x="431.3" y="314.0" class="m fin" font-size="29" fill="#c084fc" font-weight="700" filter="url(#gT)">148</text>
+<text x="431.3" y="334.0" class="m" font-size="10" fill="#6b7a99">10 investigations closed</text>
+<rect x="606.0" y="252.0" width="180.7" height="96.0" rx="10" fill="#0b0f1a" stroke="#16203a" stroke-width="1" opacity="1.0"/>
+<rect x="606.0" y="252" width="3" height="96" rx="1.5" fill="#9fef00" opacity=".85"/>
+<text x="624.0" y="278.0" class="m" font-size="10" fill="#6b7a99" letter-spacing="2.2">FORTRESSES</text>
+<text x="624.0" y="314.0" class="m fin" font-size="29" fill="#9fef00" font-weight="700" filter="url(#gT)">6/6</text>
+<text x="624.0" y="334.0" class="m" font-size="10" fill="#6b7a99">cleared to 100%</text>
+<rect x="798.7" y="252.0" width="180.7" height="96.0" rx="10" fill="#0b0f1a" stroke="#16203a" stroke-width="1" opacity="1.0"/>
+<rect x="798.7" y="252" width="3" height="96" rx="1.5" fill="#f5b942" opacity=".85"/>
+<text x="816.7" y="278.0" class="m" font-size="10" fill="#6b7a99" letter-spacing="2.2">POINTS</text>
+<text x="816.7" y="314.0" class="m fin" font-size="29" fill="#f5b942" font-weight="700" filter="url(#gT)">1,941</text>
+<text x="816.7" y="334.0" class="m" font-size="10" fill="#6b7a99">system + user</text>
+<rect x="991.3" y="252.0" width="180.7" height="96.0" rx="10" fill="#0b0f1a" stroke="#16203a" stroke-width="1" opacity="1.0"/>
+<rect x="991.3" y="252" width="3" height="96" rx="1.5" fill="#00f0ff" opacity=".85"/>
+<text x="1009.3" y="278.0" class="m" font-size="10" fill="#6b7a99" letter-spacing="2.2">BADGES</text>
+<text x="1009.3" y="314.0" class="m fin" font-size="29" fill="#00f0ff" font-weight="700" filter="url(#gT)">56</text>
+<text x="1009.3" y="334.0" class="m" font-size="10" fill="#6b7a99">unlocked</text>
+<text x="30.0" y="384.0" class="m" font-size="13" fill="#9fef00" font-weight="700" letter-spacing="4">CHALLENGE CATEGORIES</text>
+<text x="272.0" y="384.0" class="m" font-size="11" fill="#6b7a99" letter-spacing="2">// 227 FLAGS ACROSS 17 CATEGORIES</text>
+<line x1="30" y1="396" x2="1170" y2="396" stroke="#16203a" stroke-width="1"/>
+<text x="28.0" y="429.0" class="m" font-size="12" fill="#e6edf7">Crypto</text>
+<rect x="156.0" y="421.0" width="332.0" height="8" rx="4.0" fill="#33415e" opacity=".45"/><rect x="156.0" y="421.0" width="0" height="8" rx="4.0" fill="url(#barG)"><animate attributeName="width" from="0" to="86.3" dur="1.3s" begin="0.50s" fill="freeze" calcMode="spline" keySplines=".25 .1 .25 1" keyTimes="0;1" values="0;86.3"/></rect>
+<text x="584.0" y="429.0" class="m" font-size="11" fill="#6b7a99" text-anchor="end">34/132</text>
+<text x="522.0" y="429.0" class="m" font-size="11" fill="#00f0ff" text-anchor="end">26%</text>
+<text x="28.0" y="460.0" class="m" font-size="12" fill="#e6edf7">Reversing</text>
+<rect x="156.0" y="452.0" width="332.0" height="8" rx="4.0" fill="#33415e" opacity=".45"/><rect x="156.0" y="452.0" width="0" height="8" rx="4.0" fill="url(#barG)"><animate attributeName="width" from="0" to="102.9" dur="1.3s" begin="0.55s" fill="freeze" calcMode="spline" keySplines=".25 .1 .25 1" keyTimes="0;1" values="0;102.9"/></rect>
+<text x="584.0" y="460.0" class="m" font-size="11" fill="#6b7a99" text-anchor="end">31/101</text>
+<text x="522.0" y="460.0" class="m" font-size="11" fill="#00f0ff" text-anchor="end">31%</text>
+<text x="28.0" y="491.0" class="m" font-size="12" fill="#e6edf7">Web</text>
+<rect x="156.0" y="483.0" width="332.0" height="8" rx="4.0" fill="#33415e" opacity=".45"/><rect x="156.0" y="483.0" width="0" height="8" rx="4.0" fill="url(#barG)"><animate attributeName="width" from="0" to="53.1" dur="1.3s" begin="0.60s" fill="freeze" calcMode="spline" keySplines=".25 .1 .25 1" keyTimes="0;1" values="0;53.1"/></rect>
+<text x="584.0" y="491.0" class="m" font-size="11" fill="#6b7a99" text-anchor="end">28/171</text>
+<text x="522.0" y="491.0" class="m" font-size="11" fill="#00f0ff" text-anchor="end">16%</text>
+<text x="28.0" y="522.0" class="m" font-size="12" fill="#e6edf7">Pwn</text>
+<rect x="156.0" y="514.0" width="332.0" height="8" rx="4.0" fill="#33415e" opacity=".45"/><rect x="156.0" y="514.0" width="0" height="8" rx="4.0" fill="url(#barG)"><animate attributeName="width" from="0" to="63.1" dur="1.3s" begin="0.65s" fill="freeze" calcMode="spline" keySplines=".25 .1 .25 1" keyTimes="0;1" values="0;63.1"/></rect>
+<text x="584.0" y="522.0" class="m" font-size="11" fill="#6b7a99" text-anchor="end">26/136</text>
+<text x="522.0" y="522.0" class="m" font-size="11" fill="#00f0ff" text-anchor="end">19%</text>
+<text x="28.0" y="553.0" class="m" font-size="12" fill="#e6edf7">Forensics</text>
+<rect x="156.0" y="545.0" width="332.0" height="8" rx="4.0" fill="#33415e" opacity=".45"/><rect x="156.0" y="545.0" width="0" height="8" rx="4.0" fill="url(#barG)"><animate attributeName="width" from="0" to="83.0" dur="1.3s" begin="0.70s" fill="freeze" calcMode="spline" keySplines=".25 .1 .25 1" keyTimes="0;1" values="0;83.0"/></rect>
+<text x="584.0" y="553.0" class="m" font-size="11" fill="#6b7a99" text-anchor="end">19/77</text>
+<text x="522.0" y="553.0" class="m" font-size="11" fill="#00f0ff" text-anchor="end">25%</text>
+<text x="28.0" y="584.0" class="m" font-size="12" fill="#e6edf7">Hardware</text>
+<rect x="156.0" y="576.0" width="332.0" height="8" rx="4.0" fill="#33415e" opacity=".45"/><rect x="156.0" y="576.0" width="0" height="8" rx="4.0" fill="url(#barG)"><animate attributeName="width" from="0" to="119.5" dur="1.3s" begin="0.75s" fill="freeze" calcMode="spline" keySplines=".25 .1 .25 1" keyTimes="0;1" values="0;119.5"/></rect>
+<text x="584.0" y="584.0" class="m" font-size="11" fill="#6b7a99" text-anchor="end">15/42</text>
+<text x="522.0" y="584.0" class="m" font-size="11" fill="#00f0ff" text-anchor="end">36%</text>
+<text x="28.0" y="615.0" class="m" font-size="12" fill="#e6edf7">Misc</text>
+<rect x="156.0" y="607.0" width="332.0" height="8" rx="4.0" fill="#33415e" opacity=".45"/><rect x="156.0" y="607.0" width="0" height="8" rx="4.0" fill="url(#barG)"><animate attributeName="width" from="0" to="79.7" dur="1.3s" begin="0.80s" fill="freeze" calcMode="spline" keySplines=".25 .1 .25 1" keyTimes="0;1" values="0;79.7"/></rect>
+<text x="584.0" y="615.0" class="m" font-size="11" fill="#6b7a99" text-anchor="end">14/59</text>
+<text x="522.0" y="615.0" class="m" font-size="11" fill="#00f0ff" text-anchor="end">24%</text>
+<text x="28.0" y="646.0" class="m" font-size="12" fill="#e6edf7">GamePwn</text>
+<rect x="156.0" y="638.0" width="332.0" height="8" rx="4.0" fill="#33415e" opacity=".45"/><rect x="156.0" y="638.0" width="0" height="8" rx="4.0" fill="url(#barG)"><animate attributeName="width" from="0" to="332.0" dur="1.3s" begin="0.85s" fill="freeze" calcMode="spline" keySplines=".25 .1 .25 1" keyTimes="0;1" values="0;332.0"/></rect>
+<text x="584.0" y="646.0" class="m" font-size="11" fill="#6b7a99" text-anchor="end">13/13</text>
+<text x="522.0" y="646.0" class="m" font-size="11" fill="#9fef00" text-anchor="end">100%</text>
+<text x="28.0" y="677.0" class="m" font-size="12" fill="#e6edf7">Mobile</text>
+<rect x="156.0" y="669.0" width="332.0" height="8" rx="4.0" fill="#33415e" opacity=".45"/><rect x="156.0" y="669.0" width="0" height="8" rx="4.0" fill="url(#barG)"><animate attributeName="width" from="0" to="142.8" dur="1.3s" begin="0.90s" fill="freeze" calcMode="spline" keySplines=".25 .1 .25 1" keyTimes="0;1" values="0;142.8"/></rect>
+<text x="584.0" y="677.0" class="m" font-size="11" fill="#6b7a99" text-anchor="end">10/23</text>
+<text x="522.0" y="677.0" class="m" font-size="11" fill="#00f0ff" text-anchor="end">43%</text>
+<text x="616.0" y="429.0" class="m" font-size="12" fill="#e6edf7">Blockchain</text>
+<rect x="744.0" y="421.0" width="332.0" height="8" rx="4.0" fill="#33415e" opacity=".45"/><rect x="744.0" y="421.0" width="0" height="8" rx="4.0" fill="url(#barG)"><animate attributeName="width" from="0" to="156.0" dur="1.3s" begin="0.95s" fill="freeze" calcMode="spline" keySplines=".25 .1 .25 1" keyTimes="0;1" values="0;156.0"/></rect>
+<text x="1172.0" y="429.0" class="m" font-size="11" fill="#6b7a99" text-anchor="end">8/17</text>
+<text x="1110.0" y="429.0" class="m" font-size="11" fill="#00f0ff" text-anchor="end">47%</text>
+<text x="616.0" y="460.0" class="m" font-size="12" fill="#e6edf7">AI/ML</text>
+<rect x="744.0" y="452.0" width="332.0" height="8" rx="4.0" fill="#33415e" opacity=".45"/><rect x="744.0" y="452.0" width="0" height="8" rx="4.0" fill="url(#barG)"><animate attributeName="width" from="0" to="109.6" dur="1.3s" begin="1.00s" fill="freeze" calcMode="spline" keySplines=".25 .1 .25 1" keyTimes="0;1" values="0;109.6"/></rect>
+<text x="1172.0" y="460.0" class="m" font-size="11" fill="#6b7a99" text-anchor="end">6/18</text>
+<text x="1110.0" y="460.0" class="m" font-size="11" fill="#00f0ff" text-anchor="end">33%</text>
+<text x="616.0" y="491.0" class="m" font-size="12" fill="#e6edf7">Coding</text>
+<rect x="744.0" y="483.0" width="332.0" height="8" rx="4.0" fill="#33415e" opacity=".45"/><rect x="744.0" y="483.0" width="0" height="8" rx="4.0" fill="url(#barG)"><animate attributeName="width" from="0" to="116.2" dur="1.3s" begin="1.05s" fill="freeze" calcMode="spline" keySplines=".25 .1 .25 1" keyTimes="0;1" values="0;116.2"/></rect>
+<text x="1172.0" y="491.0" class="m" font-size="11" fill="#6b7a99" text-anchor="end">6/17</text>
+<text x="1110.0" y="491.0" class="m" font-size="11" fill="#00f0ff" text-anchor="end">35%</text>
+<text x="616.0" y="522.0" class="m" font-size="12" fill="#e6edf7">OSINT</text>
+<rect x="744.0" y="514.0" width="332.0" height="8" rx="4.0" fill="#33415e" opacity=".45"/><rect x="744.0" y="514.0" width="0" height="8" rx="4.0" fill="url(#barG)"><animate attributeName="width" from="0" to="182.6" dur="1.3s" begin="1.10s" fill="freeze" calcMode="spline" keySplines=".25 .1 .25 1" keyTimes="0;1" values="0;182.6"/></rect>
+<text x="1172.0" y="522.0" class="m" font-size="11" fill="#6b7a99" text-anchor="end">6/11</text>
+<text x="1110.0" y="522.0" class="m" font-size="11" fill="#9fef00" text-anchor="end">55%</text>
+<text x="616.0" y="553.0" class="m" font-size="12" fill="#e6edf7">Satellite</text>
+<rect x="744.0" y="545.0" width="332.0" height="8" rx="4.0" fill="#33415e" opacity=".45"/><rect x="744.0" y="545.0" width="0" height="8" rx="4.0" fill="url(#barG)"><animate attributeName="width" from="0" to="222.4" dur="1.3s" begin="1.15s" fill="freeze" calcMode="spline" keySplines=".25 .1 .25 1" keyTimes="0;1" values="0;222.4"/></rect>
+<text x="1172.0" y="553.0" class="m" font-size="11" fill="#6b7a99" text-anchor="end">6/9</text>
+<text x="1110.0" y="553.0" class="m" font-size="11" fill="#9fef00" text-anchor="end">67%</text>
+<text x="616.0" y="584.0" class="m" font-size="12" fill="#e6edf7">ICS</text>
+<rect x="744.0" y="576.0" width="332.0" height="8" rx="4.0" fill="#33415e" opacity=".45"/><rect x="744.0" y="576.0" width="0" height="8" rx="4.0" fill="url(#barG)"><animate attributeName="width" from="0" to="89.6" dur="1.3s" begin="1.20s" fill="freeze" calcMode="spline" keySplines=".25 .1 .25 1" keyTimes="0;1" values="0;89.6"/></rect>
+<text x="1172.0" y="584.0" class="m" font-size="11" fill="#6b7a99" text-anchor="end">3/11</text>
+<text x="1110.0" y="584.0" class="m" font-size="11" fill="#00f0ff" text-anchor="end">27%</text>
+<text x="616.0" y="615.0" class="m" font-size="12" fill="#e6edf7">Quantum</text>
+<rect x="744.0" y="607.0" width="332.0" height="8" rx="4.0" fill="#33415e" opacity=".45"/><rect x="744.0" y="607.0" width="0" height="8" rx="4.0" fill="url(#barG)"><animate attributeName="width" from="0" to="96.3" dur="1.3s" begin="1.25s" fill="freeze" calcMode="spline" keySplines=".25 .1 .25 1" keyTimes="0;1" values="0;96.3"/></rect>
+<text x="1172.0" y="615.0" class="m" font-size="11" fill="#6b7a99" text-anchor="end">2/7</text>
+<text x="1110.0" y="615.0" class="m" font-size="11" fill="#00f0ff" text-anchor="end">29%</text>
+<text x="616.0" y="646.0" class="m" font-size="12" fill="#e6edf7">Secure Coding</text>
+<rect x="744.0" y="638.0" width="332.0" height="8" rx="4.0" fill="#33415e" opacity=".45"/><rect x="744.0" y="638.0" width="0" height="8" rx="4.0" fill="url(#barG)"><animate attributeName="width" from="0" to="0.0" dur="1.3s" begin="1.30s" fill="freeze" calcMode="spline" keySplines=".25 .1 .25 1" keyTimes="0;1" values="0;0.0"/></rect>
+<text x="1172.0" y="646.0" class="m" font-size="11" fill="#6b7a99" text-anchor="end">0/6</text>
+<text x="1110.0" y="646.0" class="m" font-size="11" fill="#00f0ff" text-anchor="end">0%</text>
+<rect x="0" y="711.0" width="1200" height="1" fill="url(#rule)" opacity=".7"/>
+<text x="30.0" y="745.0" class="m" font-size="10" fill="#6b7a99" letter-spacing="2.4">FORTRESSES</text>
+<rect x="138.0" y="733.0" width="51.8" height="24" rx="12" fill="#9fef00" opacity=".12"/>
+<rect x="138.0" y="733.0" width="51.8" height="24" rx="12" fill="none" stroke="#9fef00" stroke-width="1" opacity=".6"/>
+<text x="163.9" y="749.0" class="m" font-size="11" fill="#9fef00" font-weight="700" text-anchor="middle">Jet</text>
+<rect x="197.8" y="733.0" width="71.6" height="24" rx="12" fill="#9fef00" opacity=".12"/>
+<rect x="197.8" y="733.0" width="71.6" height="24" rx="12" fill="none" stroke="#9fef00" stroke-width="1" opacity=".6"/>
+<text x="233.6" y="749.0" class="m" font-size="11" fill="#9fef00" font-weight="700" text-anchor="middle">Akerva</text>
+<rect x="277.4" y="733.0" width="78.2" height="24" rx="12" fill="#9fef00" opacity=".12"/>
+<rect x="277.4" y="733.0" width="78.2" height="24" rx="12" fill="none" stroke="#9fef00" stroke-width="1" opacity=".6"/>
+<text x="316.5" y="749.0" class="m" font-size="11" fill="#9fef00" font-weight="700" text-anchor="middle">Context</text>
+<rect x="363.6" y="733.0" width="91.4" height="24" rx="12" fill="#9fef00" opacity=".12"/>
+<rect x="363.6" y="733.0" width="91.4" height="24" rx="12" fill="none" stroke="#9fef00" stroke-width="1" opacity=".6"/>
+<text x="409.3" y="749.0" class="m" font-size="11" fill="#9fef00" font-weight="700" text-anchor="middle">Synacktiv</text>
+<rect x="463.0" y="733.0" width="78.2" height="24" rx="12" fill="#9fef00" opacity=".12"/>
+<rect x="463.0" y="733.0" width="78.2" height="24" rx="12" fill="none" stroke="#9fef00" stroke-width="1" opacity=".6"/>
+<text x="502.1" y="749.0" class="m" font-size="11" fill="#9fef00" font-weight="700" text-anchor="middle">Faraday</text>
+<rect x="549.2" y="733.0" width="51.8" height="24" rx="12" fill="#9fef00" opacity=".12"/>
+<rect x="549.2" y="733.0" width="51.8" height="24" rx="12" fill="none" stroke="#9fef00" stroke-width="1" opacity=".6"/>
+<text x="575.1" y="749.0" class="m" font-size="11" fill="#9fef00" font-weight="700" text-anchor="middle">AWS</text>
+<text x="1170.0" y="749.0" class="m" font-size="11" fill="#c084fc" text-anchor="end" letter-spacing="1">INSANE 6/68</text>
+<circle cx="1075.4" cy="745.0" r="3.4" fill="#c084fc"/>
+<text x="1056.4" y="749.0" class="m" font-size="11" fill="#ff2d95" text-anchor="end" letter-spacing="1">HARD 8/123</text>
+<circle cx="969.4" cy="745.0" r="3.4" fill="#ff2d95"/>
+<text x="950.4" y="749.0" class="m" font-size="11" fill="#f5b942" text-anchor="end" letter-spacing="1">MEDIUM 12/194</text>
+<circle cx="840.6" cy="745.0" r="3.4" fill="#f5b942"/>
+<text x="821.6" y="749.0" class="m" font-size="11" fill="#9fef00" text-anchor="end" letter-spacing="1">EASY 22/163</text>
+<circle cx="727.0" cy="745.0" r="3.4" fill="#9fef00"/>
+<rect width="1200" height="783" fill="url(#scan)" opacity=".55"/>
+</svg>

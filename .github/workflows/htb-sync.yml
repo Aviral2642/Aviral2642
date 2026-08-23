@@ -1,0 +1,54 @@
+name: htb-sync
+
+# Re-reads the live Hack The Box API and redraws assets/htb.svg + the README
+# block whenever the telemetry changes. A run where nothing moved commits nothing.
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"   # 00:17, 06:17, 12:17, 18:17 UTC
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/htb_sync.py"
+      - ".github/workflows/htb-sync.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: htb-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Regenerate the card
+        env:
+          # Optional. Without it the card still builds from the public API,
+          # it just loses the country rank.
+          HTB_TOKEN: ${{ secrets.HTB_TOKEN }}
+          # Optional pins for the XP track, which HTB does not expose on any
+          # v4 route. Set them as repo variables to update without a code edit.
+          HTB_XP_RANK: ${{ vars.HTB_XP_RANK }}
+          HTB_XP_LEVEL: ${{ vars.HTB_XP_LEVEL }}
+        run: python3 scripts/htb_sync.py
+
+      - name: Commit if the numbers moved
+        run: |
+          if git diff --quiet -- assets/htb.svg README.md; then
+            echo "no change — HTB telemetry is identical to the last sync"
+            exit 0
+          fi
+          git config user.name  "htb-sync[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/htb.svg README.md
+          git commit -m "htb: sync live telemetry $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push

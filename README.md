@@ -8,7 +8,7 @@
   <a href="https://medium.com/@aviral23"><img src="https://img.shields.io/badge/MEDIUM-0b0f1a?style=for-the-badge&logo=medium&logoColor=FF2D95&labelColor=0b0f1a" alt="Medium" /></a>
   <a href="https://hackernoon.com/u/aviralxroot"><img src="https://img.shields.io/badge/HACKERNOON-0b0f1a?style=for-the-badge&logo=hackernoon&logoColor=39FFB0&labelColor=0b0f1a" alt="HackerNoon" /></a>
   <a href="https://sessionize.com/aviral-srivastava/"><img src="https://img.shields.io/badge/SPEAKER-0b0f1a?style=for-the-badge&logo=sessionize&logoColor=C084FC&labelColor=0b0f1a" alt="Sessionize" /></a>
-  <a href="https://app.hackthebox.com/profile/212766"><img src="https://img.shields.io/badge/HACKTHEBOX-0b0f1a?style=for-the-badge&logo=hackthebox&logoColor=9FEF00&labelColor=0b0f1a" alt="HackTheBox" /></a>
+  <a href="https://app.hackthebox.com/users/212766"><img src="https://img.shields.io/badge/HACKTHEBOX-0b0f1a?style=for-the-badge&logo=hackthebox&logoColor=9FEF00&labelColor=0b0f1a" alt="HackTheBox" /></a>
   <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-33017"><img src="https://img.shields.io/badge/CISA_KEV-0b0f1a?style=for-the-badge&logo=shieldsdotio&logoColor=FF2D55&labelColor=0b0f1a" alt="CISA KEV" /></a>
 </div>
 
@@ -98,6 +98,30 @@ Nothing crashes. No sanitizer fires. Every individual line of the kernel looks c
 </td>
 </tr>
 </table>
+
+<img src="https://raw.githubusercontent.com/Aviral2642/Aviral2642/main/assets/divider.svg?v=2" width="100%" />
+
+<div align="center">
+
+## `◈` RANGE TIME — HACK THE BOX
+
+</div>
+
+<!-- HTB:START -->
+<div align="center">
+  <a href="https://app.hackthebox.com/users/212766"><img src="https://raw.githubusercontent.com/Aviral2642/Aviral2642/main/assets/htb.svg?v=3dd49d08" alt="Hack The Box live telemetry — AviralxRoot" width="100%" /></a>
+</div>
+
+<div align="center">
+
+<sub>`◈` <b>LIVE</b> — <a href="https://github.com/Aviral2642/Aviral2642/blob/main/.github/workflows/htb-sync.yml"><code>htb-sync.yml</code></a> re-reads the Hack The Box API every six hours and redraws this card whenever a number moves. Last change <b>2026-08-23 05:04 UTC</b>.</sub>
+
+</div>
+
+> **AviralxRoot** — **Guru** on points, **Prodigy III · level 89** on XP. Global **#109** · **#15** in United States, **1,941** points, **68** user and **50** root flags, **227** challenges, **148** Sherlock tasks, and **6** fortresses cleared end to end. Nothing on this card is typed by hand.
+<!-- HTB:END -->
+
+<img src="https://raw.githubusercontent.com/Aviral2642/Aviral2642/main/assets/divider.svg?v=2" width="100%" />
 
 ### `▓` Independent Bug Reports — Disclosed Without CVE
 
@@ -263,7 +287,8 @@ AppSec reviews · threat modeling · penetration testing · AI/ML security · ag
   <img src="https://img.shields.io/badge/ISSN_BEST_INTL_RESEARCH-AWARD-F5B942?style=for-the-badge&labelColor=0b0f1a" />
   <img src="https://img.shields.io/badge/YOUNG_RESEARCHER-AWARD-00F0FF?style=for-the-badge&labelColor=0b0f1a" />
   <br/>
-  <a href="https://app.hackthebox.com/profile/212766"><img src="https://img.shields.io/badge/HACKTHEBOX-PRO_HACKER_·_TOP_200_GLOBAL_·_%2324_US-9FEF00?style=for-the-badge&logo=hackthebox&logoColor=black&labelColor=0b0f1a" /></a>
+  <br/>
+  <a href="https://app.hackthebox.com/users/212766"><img src="https://www.hackthebox.com/badge/image/212766" alt="Hack The Box — AviralxRoot" height="50" /></a>
 </div>
 
 <img src="https://raw.githubusercontent.com/Aviral2642/Aviral2642/main/assets/divider.svg?v=2" width="100%" />
