@@ -109,16 +109,16 @@ Nothing crashes. No sanitizer fires. Every individual line of the kernel looks c
 
 <!-- HTB:START -->
 <div align="center">
-  <a href="https://app.hackthebox.com/users/212766"><img src="https://raw.githubusercontent.com/Aviral2642/Aviral2642/main/assets/htb.svg?v=4a4efe64" alt="Hack The Box live telemetry — AviralxRoot" width="100%" /></a>
+  <a href="https://app.hackthebox.com/users/212766"><img src="https://raw.githubusercontent.com/Aviral2642/Aviral2642/main/assets/htb.svg?v=5007a380" alt="Hack The Box live telemetry — AviralxRoot" width="100%" /></a>
 </div>
 
 <div align="center">
 
-<sub>`◈` <b>LIVE</b> — <a href="https://github.com/Aviral2642/Aviral2642/blob/main/.github/workflows/htb-sync.yml"><code>htb-sync.yml</code></a> re-reads the Hack The Box API every six hours and redraws this card whenever a number moves. Last change <b>2026-08-26 20:03 UTC</b>.</sub>
+<sub>`◈` <b>LIVE</b> — <a href="https://github.com/Aviral2642/Aviral2642/blob/main/.github/workflows/htb-sync.yml"><code>htb-sync.yml</code></a> re-reads the Hack The Box API every six hours and redraws this card whenever a number moves. Last change <b>2026-08-27 09:47 UTC</b>.</sub>
 
 </div>
 
-> **AviralxRoot** — **Guru** on points, **Prodigy III · level 89** on XP. Global **#61** · **#11** in United States, **1,941** points, **68** user and **50** root flags, **227** challenges, **148** Sherlock tasks, and **6** fortresses cleared end to end. Nothing on this card is typed by hand.
+> **AviralxRoot** — **Guru** on points, **Prodigy III · level 89** on XP. Global **#62** · **#11** in United States, **1,941** points, **68** user and **50** root flags, **227** challenges, **148** Sherlock tasks, and **6** fortresses cleared end to end. Nothing on this card is typed by hand.
 <!-- HTB:END -->
 
 <img src="https://raw.githubusercontent.com/Aviral2642/Aviral2642/main/assets/divider.svg?v=2" width="100%" />
