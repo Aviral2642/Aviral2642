@@ -60,25 +60,22 @@ Added to the **CISA KEV** catalog. Exploited in the wild **within 20 hours** of 
 <img src="https://raw.githubusercontent.com/Aviral2642/Aviral2642/main/assets/divider.svg?v=2" width="100%" />
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Aviral2642/Aviral2642/main/assets/threat.svg?v=4" alt="Selected assigned CVEs" width="100%" />
+  <img src="https://raw.githubusercontent.com/Aviral2642/Aviral2642/main/assets/threat.svg?v=5" alt="Eight assigned CVEs" width="100%" />
 </div>
 
-### `▓` New disclosure — CVE-2026-104850 · MCP TypeScript SDK
+### `▓` The 2026 Batch — Agentic Platforms & MCP Clients
 
-**Co-reported** [GHSA-6qxp-vccf-f47h](https://github.com/advisories/GHSA-6qxp-vccf-f47h) with six other credited researchers. An untrusted MCP server could choose an authorization server that received OAuth client credentials already held for a different issuer, including refresh tokens and client secrets. **High · CVSS 7.5.** Affected: `@modelcontextprotocol/sdk` 1.12.0–1.30.1 and specified `@modelcontextprotocol/client` 2.0.0–2.1.0 paths. Fixed in 1.31.0 and 2.2.0 respectively. Bundled providers still need `expectedIssuer`, and older persisted credentials need an `issuer` or a fresh sign-in. [Disclosure notes](https://github.com/Aviral2642/ai-infra-security/tree/main/CVE-2026-104850).
-
-### `▓` The 2026 Batch — Breaking Agentic Workflow Platforms
-
-> Four CVEs across two orchestrators, all landing on the same seam: the gap between **"we validated this input"** and **"we already ran it."**
+> Five CVEs across an MCP client SDK and two agentic workflow platforms. The MCP finding was **co-reported** with six other researchers.
 
 | CVE | Target | Finding | Severity | Advisory · Fix |
 |---|---|---|---|---|
 | **[CVE-2026-69258](https://nvd.nist.gov/vuln/detail/CVE-2026-69258)** | **Flowise** | Unauthenticated **property injection** — the Prediction API spreads `overrideConfig` into the flow execution context with no allow-list, so an attacker controls internals the flow assumed were server-owned | `8.8 HIGH` <sub>CVSS 4.0</sub><br><sub>CWE-639 · CWE-915</sub> | [GHSA-6vh2-wg4h-4vwj](https://github.com/FlowiseAI/Flowise/security/advisories/GHSA-6vh2-wg4h-4vwj)<br><sub>fixed in `flowise@3.1.3`</sub> |
 | **[CVE-2026-73081](https://nvd.nist.gov/vuln/detail/CVE-2026-73081)** | **Activepieces** | **OS command injection** — the worker builds a Code step's on-disk path from the step *name* and hands it to a shell-invoked build command. Shell metacharacters execute during compilation, **before any sandbox exists** | `8.7 HIGH` <sub>CVSS 4.0</sub><br><sub>CWE-78</sub> | [GHSA-3pfv-m69p-5fv5](https://github.com/activepieces/activepieces/security/advisories/GHSA-3pfv-m69p-5fv5)<br><sub>fixed in `0.80.0`</sub> |
 | **[CVE-2026-73083](https://nvd.nist.gov/vuln/detail/CVE-2026-73083)** | **Activepieces** | **Sandbox escape** — in `SANDBOX_CODE_ONLY` mode the engine loads the compiled module via `importFresh()` (a `require()` wrapper) *before* the V8 isolate is applied. Top-level code reaches `child_process`, `fs`, and `AP_ENCRYPTION_KEY` | `7.6 HIGH` <sub>CVSS 4.0</sub><br><sub>CWE-693</sub> | [GHSA-gr3h-c2j7-r52g](https://github.com/activepieces/activepieces/security/advisories/GHSA-gr3h-c2j7-r52g)<br><sub>fixed in `0.80.0`</sub> |
+| **[CVE-2026-104850](https://github.com/advisories/GHSA-6qxp-vccf-f47h)** | **MCP TypeScript SDK** | **OAuth issuer confusion** — an untrusted MCP server could direct an HTTP client's saved refresh token and client secret to an authorization server it controlled. **Co-reported.** | `7.5 HIGH` <sub>CVSS 3.1</sub><br><sub>CWE-345 · CWE-522</sub> | [GHSA-6qxp-vccf-f47h](https://github.com/advisories/GHSA-6qxp-vccf-f47h)<br><sub>fixed in `sdk@1.31.0` / `client@2.2.0`</sub> |
 | **[CVE-2026-73084](https://nvd.nist.gov/vuln/detail/CVE-2026-73084)** | **Activepieces** | **XSS in the OAuth callback** — `/api/redirect` embeds the attacker-supplied `code` parameter into an inline `<script>` unescaped. Unauthenticated script execution in the app origin against any logged-in victim | `6.1 MEDIUM` <sub>CVSS 3.1</sub><br><sub>CWE-79</sub> | [GHSA-hc39-cm5m-q8g7](https://github.com/activepieces/activepieces/security/advisories/GHSA-hc39-cm5m-q8g7)<br><sub>fixed in `0.83.0`</sub> |
 
-<sub>All four assigned via the **GitHub CNA**. Flowise writeup: **[Flowise patched `overrideConfig`. I found the two places the patch never reached.](https://medium.com/@aviral23/cve-2026-69258-flowise-patched-overrideconfig-i-found-the-two-places-the-patch-never-reached-cb907387cbbe)**</sub>
+<sub>MCP SDK [disclosure notes](https://github.com/Aviral2642/ai-infra-security/tree/main/CVE-2026-104850) include affected versions and the `expectedIssuer` / persisted-credential caveats. Flowise writeup: **[Flowise patched `overrideConfig`. I found the two places the patch never reached.](https://medium.com/@aviral23/cve-2026-69258-flowise-patched-overrideconfig-i-found-the-two-places-the-patch-never-reached-cb907387cbbe)**</sub>
 
 <table>
 <tr>
