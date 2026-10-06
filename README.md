@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Aviral2642/Aviral2642/main/assets/hero.svg?v=3" alt="Aviral Srivastava" width="100%" />
+  <img src="https://raw.githubusercontent.com/Aviral2642/Aviral2642/main/assets/hero.svg?v=4" alt="Aviral Srivastava" width="100%" />
 </div>
 
 <div align="center">
@@ -60,8 +60,12 @@ Added to the **CISA KEV** catalog. Exploited in the wild **within 20 hours** of 
 <img src="https://raw.githubusercontent.com/Aviral2642/Aviral2642/main/assets/divider.svg?v=2" width="100%" />
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Aviral2642/Aviral2642/main/assets/threat.svg?v=3" alt="Assigned CVEs" width="100%" />
+  <img src="https://raw.githubusercontent.com/Aviral2642/Aviral2642/main/assets/threat.svg?v=4" alt="Selected assigned CVEs" width="100%" />
 </div>
+
+### `▓` New disclosure — CVE-2026-104850 · MCP TypeScript SDK
+
+**Co-reported** [GHSA-6qxp-vccf-f47h](https://github.com/advisories/GHSA-6qxp-vccf-f47h) with six other credited researchers. An untrusted MCP server could choose an authorization server that received OAuth client credentials already held for a different issuer, including refresh tokens and client secrets. **High · CVSS 7.5.** Affected: `@modelcontextprotocol/sdk` 1.12.0–1.30.1 and specified `@modelcontextprotocol/client` 2.0.0–2.1.0 paths. Fixed in 1.31.0 and 2.2.0 respectively. Bundled providers still need `expectedIssuer`, and older persisted credentials need an `issuer` or a fresh sign-in. [Disclosure notes](https://github.com/Aviral2642/ai-infra-security/tree/main/CVE-2026-104850).
 
 ### `▓` The 2026 Batch — Breaking Agentic Workflow Platforms
 
@@ -79,7 +83,7 @@ Added to the **CISA KEV** catalog. Exploited in the wild **within 20 hours** of 
 <table>
 <tr>
 <td width="42%" align="center">
-  <img src="https://raw.githubusercontent.com/Aviral2642/Aviral2642/main/assets/badge.svg?v=3" alt="Operator credential" width="290" />
+  <img src="https://raw.githubusercontent.com/Aviral2642/Aviral2642/main/assets/badge.svg?v=4" alt="Operator credential" width="290" />
 </td>
 <td width="58%" valign="middle">
 
@@ -134,7 +138,7 @@ Nothing crashes. No sanitizer fires. Every individual line of the kernel looks c
 | **Google `sentencepiece`** | Unvalidated trie values used as piece-array indices → heap OOB read in release builds | `HIGH` | Google VRP **#498465599** — upstream fix [PR #1207](https://github.com/google/sentencepiece/pull/1207) |
 | **vLLM** | LoRA adapter SSRF → RCE chain | `HIGH` | Closed via documentation shield. Public writeup |
 
-<sub>Separate from the seven assigned CVEs above.</sub>
+<sub>Separate from the eight assigned CVEs above.</sub>
 
 <img src="https://raw.githubusercontent.com/Aviral2642/Aviral2642/main/assets/divider.svg?v=2" width="100%" />
 

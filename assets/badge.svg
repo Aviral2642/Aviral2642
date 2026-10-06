@@ -113,7 +113,7 @@
 <text x="78" y="487" class="m" font-size="9.6" letter-spacing="1.5" fill="#f5b942">PWNIE NOMINEE</text>
 <text x="342" y="487" text-anchor="end" class="m" font-size="10.4" font-weight="700" letter-spacing="1" fill="#f5b942" filter="url(#gS)">2026</text>
 <text x="78" y="505" class="m" font-size="9.6" letter-spacing="1.5" fill="#7f9ab5">CVEs ASSIGNED</text>
-<text x="342" y="505" text-anchor="end" class="m" font-size="10.4" font-weight="700" letter-spacing="1" fill="#00f0ff">07</text>
+<text x="342" y="505" text-anchor="end" class="m" font-size="10.4" font-weight="700" letter-spacing="1" fill="#00f0ff">08</text>
 <text x="78" y="523" class="m" font-size="9.6" letter-spacing="1.5" fill="#7f9ab5">CISA KEV</text>
 <text x="342" y="523" text-anchor="end" class="m" font-size="10.4" font-weight="700" letter-spacing="1" fill="#ff2d55">01</text>
 <text x="78" y="541" class="m" font-size="9.6" letter-spacing="1.5" fill="#7f9ab5">CONF TALKS</text>
@@ -186,7 +186,7 @@
 <rect x="327.8" y="556" width="3.2" height="26" fill="#cfe6f5" opacity=".82"/>
 <rect x="333.8" y="556" width="1" height="26" fill="#cfe6f5" opacity=".82"/>
 <rect x="337.6" y="556" width="3.2" height="26" fill="#cfe6f5" opacity=".82"/>
-<text x="210" y="596" text-anchor="middle" class="m" font-size="8" letter-spacing="3" fill="#5f89a8">AS&#8211;2642 &#183; PWNIE &#183; KEV &#183; CVE &#215;7</text>
+<text x="210" y="596" text-anchor="middle" class="m" font-size="8" letter-spacing="3" fill="#5f89a8">AS&#8211;2642 &#183; PWNIE &#183; KEV &#183; CVE &#215;8</text>
 </g>
 </g>
 </svg>

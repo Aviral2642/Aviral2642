@@ -1111,7 +1111,7 @@
 <text x="608" y="214.5" text-anchor="middle" class="mono pill" fill="#ffe9a8">PWNIE AWARDS 2026 NOMINEE &#183; BEST SERVER-SIDE / CLOUD BUG</text>
 </g>
 <g class="pin" style="animation-delay:1.3s">
-<text x="600" y="244" text-anchor="middle" class="mono" font-size="12.5" letter-spacing="4.2" fill="#9be9ff" opacity=".85">7 CVEs ASSIGNED &#183; 1 CISA KEV &#183; NIST OLIR &#183; 10 CONF TALKS</text>
+<text x="600" y="244" text-anchor="middle" class="mono" font-size="12.5" letter-spacing="4.2" fill="#9be9ff" opacity=".85">8 CVEs ASSIGNED &#183; 1 CISA KEV &#183; NIST OLIR &#183; 10 CONF TALKS</text>
 </g>
 <rect width="1200" height="384" fill="url(#scan)" opacity=".55"/>
 <rect class="roll" x="0" y="0" width="1200" height="150" fill="url(#rollGrad)"/>
