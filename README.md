@@ -60,22 +60,25 @@ Added to the **CISA KEV** catalog. Exploited in the wild **within 20 hours** of 
 <img src="https://raw.githubusercontent.com/Aviral2642/Aviral2642/main/assets/divider.svg?v=2" width="100%" />
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Aviral2642/Aviral2642/main/assets/threat.svg?v=5" alt="Eight assigned CVEs" width="100%" />
+  <img src="https://raw.githubusercontent.com/Aviral2642/Aviral2642/main/assets/threat.svg?v=6" alt="Nine assigned CVEs" width="100%" />
 </div>
 
 ### `▓` The 2026 Batch — Agentic Platforms & MCP Clients
 
-> Five CVEs across an MCP client SDK and two agentic workflow platforms. The MCP finding was **co-reported** with six other researchers.
+> Six CVEs across the official Python and TypeScript MCP client SDKs and two agentic workflow platforms. Both MCP findings were **co-reported**; the advisories credit eight accounts for Python and seven for TypeScript.
 
 | CVE | Target | Finding | Severity | Advisory · Fix |
 |---|---|---|---|---|
 | **[CVE-2026-69258](https://nvd.nist.gov/vuln/detail/CVE-2026-69258)** | **Flowise** | Unauthenticated **property injection** — the Prediction API spreads `overrideConfig` into the flow execution context with no allow-list, so an attacker controls internals the flow assumed were server-owned | `8.8 HIGH` <sub>CVSS 4.0</sub><br><sub>CWE-639 · CWE-915</sub> | [GHSA-6vh2-wg4h-4vwj](https://github.com/FlowiseAI/Flowise/security/advisories/GHSA-6vh2-wg4h-4vwj)<br><sub>fixed in `flowise@3.1.3`</sub> |
 | **[CVE-2026-73081](https://nvd.nist.gov/vuln/detail/CVE-2026-73081)** | **Activepieces** | **OS command injection** — the worker builds a Code step's on-disk path from the step *name* and hands it to a shell-invoked build command. Shell metacharacters execute during compilation, **before any sandbox exists** | `8.7 HIGH` <sub>CVSS 4.0</sub><br><sub>CWE-78</sub> | [GHSA-3pfv-m69p-5fv5](https://github.com/activepieces/activepieces/security/advisories/GHSA-3pfv-m69p-5fv5)<br><sub>fixed in `0.80.0`</sub> |
 | **[CVE-2026-73083](https://nvd.nist.gov/vuln/detail/CVE-2026-73083)** | **Activepieces** | **Sandbox escape** — in `SANDBOX_CODE_ONLY` mode the engine loads the compiled module via `importFresh()` (a `require()` wrapper) *before* the V8 isolate is applied. Top-level code reaches `child_process`, `fs`, and `AP_ENCRYPTION_KEY` | `7.6 HIGH` <sub>CVSS 4.0</sub><br><sub>CWE-693</sub> | [GHSA-gr3h-c2j7-r52g](https://github.com/activepieces/activepieces/security/advisories/GHSA-gr3h-c2j7-r52g)<br><sub>fixed in `0.80.0`</sub> |
+| **[CVE-2026-115563](https://github.com/modelcontextprotocol/python-sdk/security/advisories/GHSA-qx49-fqc8-xw99)** | **MCP Python SDK** | **OAuth issuer confusion** — an untrusted MCP server could redirect an HTTP OAuth client's credentials to its chosen authorization server. **Co-reported.** | `7.5 HIGH` <sub>CVSS 3.1</sub><br><sub>CWE-345 · CWE-522</sub> | [GHSA-qx49-fqc8-xw99](https://github.com/modelcontextprotocol/python-sdk/security/advisories/GHSA-qx49-fqc8-xw99)<br><sub>fixed in `mcp@1.30.0` / `2.2.0`; issuer configuration and credential migration required</sub> |
 | **[CVE-2026-104850](https://github.com/advisories/GHSA-6qxp-vccf-f47h)** | **MCP TypeScript SDK** | **OAuth issuer confusion** — an untrusted MCP server could direct an HTTP client's saved refresh token and client secret to an authorization server it controlled. **Co-reported.** | `7.5 HIGH` <sub>CVSS 3.1</sub><br><sub>CWE-345 · CWE-522</sub> | [GHSA-6qxp-vccf-f47h](https://github.com/advisories/GHSA-6qxp-vccf-f47h)<br><sub>fixed in `sdk@1.31.0` / `client@2.2.0`</sub> |
 | **[CVE-2026-73084](https://nvd.nist.gov/vuln/detail/CVE-2026-73084)** | **Activepieces** | **XSS in the OAuth callback** — `/api/redirect` embeds the attacker-supplied `code` parameter into an inline `<script>` unescaped. Unauthenticated script execution in the app origin against any logged-in victim | `6.1 MEDIUM` <sub>CVSS 3.1</sub><br><sub>CWE-79</sub> | [GHSA-hc39-cm5m-q8g7](https://github.com/activepieces/activepieces/security/advisories/GHSA-hc39-cm5m-q8g7)<br><sub>fixed in `0.83.0`</sub> |
 
-<sub>MCP SDK [disclosure notes](https://github.com/Aviral2642/ai-infra-security/tree/main/CVE-2026-104850) include affected versions and the `expectedIssuer` / persisted-credential caveats. Flowise writeup: **[Flowise patched `overrideConfig`. I found the two places the patch never reached.](https://medium.com/@aviral23/cve-2026-69258-flowise-patched-overrideconfig-i-found-the-two-places-the-patch-never-reached-cb907387cbbe)**</sub>
+<sub>MCP Python SDK [disclosure notes](https://github.com/Aviral2642/ai-infra-security/tree/main/CVE-2026-115563) cover issuer configuration and stored registrations. MCP TypeScript SDK [disclosure notes](https://github.com/Aviral2642/ai-infra-security/tree/main/CVE-2026-104850) include affected versions and the `expectedIssuer` / persisted-credential caveats. Flowise writeup: **[Flowise patched `overrideConfig`. I found the two places the patch never reached.](https://medium.com/@aviral23/cve-2026-69258-flowise-patched-overrideconfig-i-found-the-two-places-the-patch-never-reached-cb907387cbbe)**</sub>
+
+<sub>Research writing: [Two OAuth flaws in the official MCP SDKs](https://medium.com/@aviral23/i-found-two-oauth-security-flaws-in-the-official-mcp-sdks-038e377dc992) · [Three CVEs in Activepieces](https://medium.com/@aviral23/three-cves-in-activepieces-the-sandbox-was-real-the-code-just-didnt-run-inside-it-13cc2b4cda85)</sub>
 
 <table>
 <tr>
@@ -124,6 +127,10 @@ Nothing crashes. No sanitizer fires. Every individual line of the kernel looks c
 
 <img src="https://raw.githubusercontent.com/Aviral2642/Aviral2642/main/assets/divider.svg?v=2" width="100%" />
 
+### `▓` AnythingLLM — CVE-2026-32628
+
+SQL injection in an AI agent platform. **High severity.** [CVE record](https://www.cve.org/CVERecord?id=CVE-2026-32628) · [Research writeup](https://medium.com/@aviral23/i-found-a-sql-injection-in-an-ai-agent-ab2a02448047).
+
 ### `▓` Independent Bug Reports — Disclosed Without CVE
 
 > Valid, reproducible findings where the vendor declined assignment (often behind a retroactive documentation shield). Published anyway.
@@ -135,7 +142,7 @@ Nothing crashes. No sanitizer fires. Every individual line of the kernel looks c
 | **Google `sentencepiece`** | Unvalidated trie values used as piece-array indices → heap OOB read in release builds | `HIGH` | Google VRP **#498465599** — upstream fix [PR #1207](https://github.com/google/sentencepiece/pull/1207) |
 | **vLLM** | LoRA adapter SSRF → RCE chain | `HIGH` | Closed via documentation shield. Public writeup |
 
-<sub>Separate from the eight assigned CVEs above.</sub>
+<sub>Separate from the nine assigned CVEs above.</sub>
 
 <img src="https://raw.githubusercontent.com/Aviral2642/Aviral2642/main/assets/divider.svg?v=2" width="100%" />
 
@@ -169,7 +176,7 @@ Nothing crashes. No sanitizer fires. Every individual line of the kernel looks c
 | `2026` | **BSides Las Vegas** | *Rejected-Input Programming: Exploiting Parsers That Say No Too Late* — Breaking Ground, Aug 5 |
 | `2026` | **RSAC 2026** | *From Prompt to Pager: Preparing for AI-Native Incidents Now* |
 | `2026` | **ISACA North America** | *Breaking the Loop: Offensive Testing of RL and Agentic AI Systems* |
-| `2025` | **CactusCon 14** | *Agents Under Siege: Live Attacks from RAG to Tool Calls* |
+| `2026` | **CactusCon 14** | *Agents Under Siege: Live Attacks from RAG to Tool Calls* |
 | `2025` | **CypherCon 2025** | *Deceiving the Deceivers: Offensive Security Strategies for Adversarial AI* |
 | `2025` | **BSidesSLC** | *Filling Gaps in AI Governance: How ISO/IEC 42001 Shapes AI Risk & Compliance* |
 | `2025` | **BSidesTC** | *ROP Alchemy: Universal Gadgets via Type Confusion* |
