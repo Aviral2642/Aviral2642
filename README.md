@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Aviral2642/Aviral2642/main/assets/hero.svg?v=4" alt="Aviral Srivastava" width="100%" />
+  <img src="https://raw.githubusercontent.com/Aviral2642/Aviral2642/main/assets/hero.svg?v=5" alt="Aviral Srivastava" width="100%" />
 </div>
 
 <div align="center">
@@ -60,7 +60,7 @@ Added to the **CISA KEV** catalog. Exploited in the wild **within 20 hours** of 
 <img src="https://raw.githubusercontent.com/Aviral2642/Aviral2642/main/assets/divider.svg?v=2" width="100%" />
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Aviral2642/Aviral2642/main/assets/threat.svg?v=6" alt="Nine assigned CVEs" width="100%" />
+  <img src="https://raw.githubusercontent.com/Aviral2642/Aviral2642/main/assets/threat.svg?v=7" alt="Ten assigned CVEs" width="100%" />
 </div>
 
 ### `▓` The 2026 Batch — Agentic Platforms & MCP Clients
@@ -80,10 +80,18 @@ Added to the **CISA KEV** catalog. Exploited in the wild **within 20 hours** of 
 
 <sub>Research writing: [Two OAuth flaws in the official MCP SDKs](https://medium.com/@aviral23/i-found-two-oauth-security-flaws-in-the-official-mcp-sdks-038e377dc992) · [Three CVEs in Activepieces](https://medium.com/@aviral23/three-cves-in-activepieces-the-sandbox-was-real-the-code-just-didnt-run-inside-it-13cc2b4cda85)</sub>
 
+### `▓` PHP-FPM — CVE-2026-129289
+
+> Request smuggling in PHP's FastCGI Process Manager. **Co-reported**; the advisory credits three reporters.
+
+| CVE | Target | Finding | Severity | Advisory · Fix |
+|---|---|---|---|---|
+| **[CVE-2026-129289](https://github.com/php/php-src/security/advisories/GHSA-qc49-hpvq-g2w6)** | **PHP-FPM** | **Request smuggling**: when a script leaves the HTTP request body unread, FPM does not drain it, so on a kept-alive FastCGI connection the leftover bytes are parsed as a new request | `9.2 CRITICAL` <sub>CVSS 4.0</sub><br><sub>CWE-444 · CWE-670</sub> | [GHSA-qc49-hpvq-g2w6](https://github.com/php/php-src/security/advisories/GHSA-qc49-hpvq-g2w6)<br><sub>fixed in `8.2.36` / `8.3.37` / `8.4.28` / `8.5.13`</sub> |
+
 <table>
 <tr>
 <td width="42%" align="center">
-  <img src="https://raw.githubusercontent.com/Aviral2642/Aviral2642/main/assets/badge.svg?v=4" alt="Operator credential" width="290" />
+  <img src="https://raw.githubusercontent.com/Aviral2642/Aviral2642/main/assets/badge.svg?v=5" alt="Operator credential" width="290" />
 </td>
 <td width="58%" valign="middle">
 
@@ -142,7 +150,7 @@ SQL injection in an AI agent platform. **High severity.** [CVE record](https://w
 | **Google `sentencepiece`** | Unvalidated trie values used as piece-array indices → heap OOB read in release builds | `HIGH` | Google VRP **#498465599** — upstream fix [PR #1207](https://github.com/google/sentencepiece/pull/1207) |
 | **vLLM** | LoRA adapter SSRF → RCE chain | `HIGH` | Closed via documentation shield. Public writeup |
 
-<sub>Separate from the nine assigned CVEs above.</sub>
+<sub>Separate from the ten assigned CVEs above.</sub>
 
 <img src="https://raw.githubusercontent.com/Aviral2642/Aviral2642/main/assets/divider.svg?v=2" width="100%" />
 
