@@ -121,12 +121,12 @@ Nothing crashes. No sanitizer fires. Every individual line of the kernel looks c
 
 <!-- HTB:START -->
 <div align="center">
-  <a href="https://app.hackthebox.com/users/212766"><img src="https://raw.githubusercontent.com/Aviral2642/Aviral2642/main/assets/htb.svg?v=270befbf" alt="Hack The Box live telemetry — AviralxRoot" width="100%" /></a>
+  <a href="https://app.hackthebox.com/users/212766"><img src="https://raw.githubusercontent.com/Aviral2642/Aviral2642/main/assets/htb.svg?v=ef952927" alt="Hack The Box live telemetry — AviralxRoot" width="100%" /></a>
 </div>
 
 <div align="center">
 
-<sub>`◈` <b>LIVE</b> — <a href="https://github.com/Aviral2642/Aviral2642/blob/main/.github/workflows/htb-sync.yml"><code>htb-sync.yml</code></a> re-reads the Hack The Box API every six hours and redraws this card whenever a number moves. Last change <b>2026-11-28 07:46 UTC</b>.</sub>
+<sub>`◈` <b>LIVE</b> — <a href="https://github.com/Aviral2642/Aviral2642/blob/main/.github/workflows/htb-sync.yml"><code>htb-sync.yml</code></a> re-reads the Hack The Box API every six hours and redraws this card whenever a number moves. Last change <b>2026-11-28 19:59 UTC</b>.</sub>
 
 </div>
 
